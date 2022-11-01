@@ -2,6 +2,9 @@ introduction
 proposal
 research-topic
 data-availability
+unemployment-situation-by-month
+unemployment-rates-by-state
+unemployment-situation-by-race
 data
 sources
 cleaning-transformation
