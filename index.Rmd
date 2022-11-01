@@ -1,5 +1,5 @@
 --- 
-title: "Unemployment Condition in the United States After Covid-19"
+title: "Exploring Unemployment Conditions in the United States After Covid-19"
 author: "Kaiyuan Liu (kl3447), Zhuolin Luo (zl2852), Yizhan Niu (yn2440)"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
