@@ -5,6 +5,8 @@ data-availability
 unemployment-situation-by-month
 unemployment-rates-by-state
 unemployment-situation-by-race
+unemployment-situation-by-age
+gdp-and-cpi-by-region
 data
 sources
 cleaning-transformation
