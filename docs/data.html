@@ -23,7 +23,7 @@
 <meta name="author" content="Kaiyuan Liu (kl3447), Zhuolin Luo (zl2852), Yizhan Niu (yn2440)" />
 
 
-<meta name="date" content="2022-12-14" />
+<meta name="date" content="2022-12-15" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -87,9 +87,30 @@
 </ul></li>
 <li class="chapter" data-level="3" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>3</b> Data</a>
 <ul>
-<li class="chapter" data-level="3.1" data-path="data.html"><a href="data.html#sources"><i class="fa fa-check"></i><b>3.1</b> Sources</a></li>
-<li class="chapter" data-level="3.2" data-path="data.html"><a href="data.html#cleaning-transformation"><i class="fa fa-check"></i><b>3.2</b> Cleaning / transformation</a></li>
-<li class="chapter" data-level="3.3" data-path="data.html"><a href="data.html#missing-value-analysis"><i class="fa fa-check"></i><b>3.3</b> Missing value analysis</a></li>
+<li class="chapter" data-level="3.1" data-path="data.html"><a href="data.html#sources"><i class="fa fa-check"></i><b>3.1</b> Sources</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="data.html"><a href="data.html#monthly-unemployment-rate"><i class="fa fa-check"></i><b>3.1.1</b> Monthly Unemployment Rate</a></li>
+<li class="chapter" data-level="3.1.2" data-path="data.html"><a href="data.html#unemployment-rate-by-state"><i class="fa fa-check"></i><b>3.1.2</b> Unemployment Rate by State</a></li>
+<li class="chapter" data-level="3.1.3" data-path="data.html"><a href="data.html#unemployment-rate-by-race"><i class="fa fa-check"></i><b>3.1.3</b> Unemployment Rate by Race</a></li>
+<li class="chapter" data-level="3.1.4" data-path="data.html"><a href="data.html#unemployment-situation-by-age-and-sex"><i class="fa fa-check"></i><b>3.1.4</b> Unemployment Situation by Age and Sex</a></li>
+<li class="chapter" data-level="3.1.5" data-path="data.html"><a href="data.html#relationships-among-unemployed-population-gdp-and-cpi"><i class="fa fa-check"></i><b>3.1.5</b> Relationships among Unemployed Population, GDP, and CPI</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="data.html"><a href="data.html#cleaning-transformation"><i class="fa fa-check"></i><b>3.2</b> Cleaning / transformation</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="data.html"><a href="data.html#monthly-unemployment-rate-1"><i class="fa fa-check"></i><b>3.2.1</b> Monthly Unemployment Rate</a></li>
+<li class="chapter" data-level="3.2.2" data-path="data.html"><a href="data.html#unemployment-rate-by-state-1"><i class="fa fa-check"></i><b>3.2.2</b> Unemployment Rate by State</a></li>
+<li class="chapter" data-level="3.2.3" data-path="data.html"><a href="data.html#unemployment-rate-by-race-1"><i class="fa fa-check"></i><b>3.2.3</b> Unemployment Rate by Race</a></li>
+<li class="chapter" data-level="3.2.4" data-path="data.html"><a href="data.html#unemployment-situation-by-age-and-sex-1"><i class="fa fa-check"></i><b>3.2.4</b> Unemployment Situation by Age and Sex</a></li>
+<li class="chapter" data-level="3.2.5" data-path="data.html"><a href="data.html#relationships-among-unemployed-population-gdp-and-cpi-1"><i class="fa fa-check"></i><b>3.2.5</b> Relationships among Unemployed Population, GDP, and CPI</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="data.html"><a href="data.html#missing-value-analysis"><i class="fa fa-check"></i><b>3.3</b> Missing value analysis</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="data.html"><a href="data.html#monthly-unemployment-rate-2"><i class="fa fa-check"></i><b>3.3.1</b> Monthly Unemployment Rate</a></li>
+<li class="chapter" data-level="3.3.2" data-path="data.html"><a href="data.html#unemployment-rate-by-state-2"><i class="fa fa-check"></i><b>3.3.2</b> Unemployment Rate by State</a></li>
+<li class="chapter" data-level="3.3.3" data-path="data.html"><a href="data.html#unemployment-rate-by-race-2"><i class="fa fa-check"></i><b>3.3.3</b> Unemployment Rate by Race</a></li>
+<li class="chapter" data-level="3.3.4" data-path="data.html"><a href="data.html#unemployment-situation-by-age-and-sex-2"><i class="fa fa-check"></i><b>3.3.4</b> Unemployment Situation by Age and Sex</a></li>
+<li class="chapter" data-level="3.3.5" data-path="data.html"><a href="data.html#relationships-among-unemployed-population-gdp-and-cpi-2"><i class="fa fa-check"></i><b>3.3.5</b> Relationships among Unemployed Population, GDP, and CPI</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>4</b> Results</a>
 <ul>
@@ -130,16 +151,98 @@
             <section class="normal" id="section-">
 <div id="data" class="section level1 hasAnchor" number="3">
 <h1><span class="header-section-number">Chapter 3</span> Data<a href="data.html#data" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>To comprehensively investigate the unemployed situation after the Covid-19 pandemic, we will visualize the unemployed population and unemployment rates from the following five different perspectives:</p>
+<ul>
+<li>Monthly unemployment rate trend</li>
+<li>Unemployment rates of each state</li>
+<li>Unemployment rates of different races</li>
+<li>Unemployment situation of different-aged men and women</li>
+<li>Relationships among the unemployed population, GDP, and CPI</li>
+</ul>
+<p>Each section corresponds to one or multiple separate dataset(s), so we will discuss the data source, data cleaning and transformation process, and missing value analysis regarding each part separately.</p>
 <div id="sources" class="section level2 hasAnchor" number="3.1">
 <h2><span class="header-section-number">3.1</span> Sources<a href="data.html#sources" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>123</p>
+<p>As described above, we will focus on the above five aspects regarding unemployment, including monthly trends, geographical distribution, race, age, and sex-related differences, and relationships to macroeconomic factors. We chose these aspects because we think they can capture most characteristics of the unemployed situation after the Covid-19 pandemic in the U.S. To fully investigate it, we have decided to utilize the data from the U.S. Bureau of Labor Statistics and the U.S. Bureau of Economic Analysis. We consider these data sources because they are the U.S. official departments that provide officially valid data.</p>
+<p>Next, we will discuss these data sources regarding each aspect in detail.</p>
+<div id="monthly-unemployment-rate" class="section level3 hasAnchor" number="3.1.1">
+<h3><span class="header-section-number">3.1.1</span> Monthly Unemployment Rate<a href="data.html#monthly-unemployment-rate" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Firstly, we will visualize the time series data of seasonally adjusted unemployment rates for each month in the United States from January 2012 to November 2022. The data is collected and published by the U.S. Bureau of Labor Statistics on a monthly basis. The unemployed information is collected from the Current Population Survey (CPS), a household survey about the employment situation administered by the U.S. Census Bureau on a sample of 60,000 U.S. households. We chose this data source because of its reliability and authority. Following the methods described in Section 2.2, we got a table summarizing the monthly unemployment rates from January 2012 to November 2022. This table includes 13 columns and 11 rows. The 13 columns encompass year and 12 months, respectively, while the 11 rows contain unemployment rate data for each month from 2012 to 2022. The column “Year” is in the integer type, and the other 12 columns containing unemployment rates are in the double type. Since it is published by the U.S. official organization, we did not find any unreasonable issues or problems.</p>
+</div>
+<div id="unemployment-rate-by-state" class="section level3 hasAnchor" number="3.1.2">
+<h3><span class="header-section-number">3.1.2</span> Unemployment Rate by State<a href="data.html#unemployment-rate-by-state" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Secondly, we will visualize the unemployment rates of each state in the U.S., ranging from October 2019 to September 2022. This data is collected and administered by the Local Area Unemployment Statistics (LAUS) program under the U.S. Bureau of Labor Statistics. The state unemployment rate is calculated as the sum of two parts: estimates from the Current Population Survey (CPS)——the source of national unemployment rates——and real-time estimates controlled by models. These models reflect current and historical data from the CPS, the Current Employment Statistics (CES) survey, and state unemployment insurance (UI) systems. We relied on this data because of its reliability and authority. Since each page of the U.S. Bureau of Labor Statistics contains a table for a specific month, we finally got 36 tables. Each table has two columns, states and corresponding unemployment rates, and 52 rows, each of which represents a state or region. The state column contains character data, while the unemployment rate column includes double data. A minor problem we discovered is that it consists of 52 states or regions, not typically 50 states in the U.S., and Puerto Rico sometimes do not have any record while other states all have complete data.</p>
+</div>
+<div id="unemployment-rate-by-race" class="section level3 hasAnchor" number="3.1.3">
+<h3><span class="header-section-number">3.1.3</span> Unemployment Rate by Race<a href="data.html#unemployment-rate-by-race" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Thirdly, we will investigate how unemployment rates differ among different races: Asian, White, and Black, from September 2021 to September 2022. The data is collected and maintained by the U.S. Bureau of Labor Statistics, originating from the Current Population Survey (CPS). This survey, administered by the U.S. Census Bureau, investigates the employment situation by sampling 60,000 households. We chose this data source because of its reliability, authority, and easy accessibility. We obtained three tables, each of which records the monthly unemployment rates for White, Asian, and Black, respectively, ranging from January 2012 to November 2022. Each table includes 13 columns and 11 rows. The 13 columns are “Year” and 12 months, respectively, while the 11 rows are unemployment rate data for each month from 2012 to 2022. The column “Year” is in the integer type, and the other 12 columns containing unemployment rates are all in the double type. Since it is published by the U.S. official organization, we did not find any unreasonable issues or problems.</p>
+</div>
+<div id="unemployment-situation-by-age-and-sex" class="section level3 hasAnchor" number="3.1.4">
+<h3><span class="header-section-number">3.1.4</span> Unemployment Situation by Age and Sex<a href="data.html#unemployment-situation-by-age-and-sex" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Fourthly, we will investigate the unemployment situation concerning age and sex across different periods. The Division of Labor Force Statistics under the Bureau of Labor Statistics collects and maintains the data. This data was estimated through the household survey given by the Bureau of Labor Statistics based on 60,000 household data sampled by the U.S. Census Bureau. We relied on this data source because of its reliability and authority. We finally had four tables. Two tables are about the unemployed population and unemployment rates, each of which includes 16 columns and 21 rows. The 16 columns include age (character), sex (character), 13 months from September 2021 to September 2022 (integer for unemployed population data and double for unemployment rate data), and the row mean (double). Each row represents a series of unemployment data for a specific-aged and sex group. The other two tables are also about the unemployed population and unemployment rates, which include 10 columns and 21 rows. The 16 columns include age (character), sex (character), unemployed data for September 2019, 2020, 2021, and 2022, and unemployed data for 2019 Q3, 2020 Q3, 2021 Q3, and 2022 Q3 (integer for unemployed population data and double for unemployment rate data). Each row contains the unemployment data a specific-aged and sex group. Since it is published by the U.S. official organization, we did not find any unreasonable issues or problems.</p>
+</div>
+<div id="relationships-among-unemployed-population-gdp-and-cpi" class="section level3 hasAnchor" number="3.1.5">
+<h3><span class="header-section-number">3.1.5</span> Relationships among Unemployed Population, GDP, and CPI<a href="data.html#relationships-among-unemployed-population-gdp-and-cpi" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Finally, we will explore the relationships among the unemployed population, GDP, and CPI from January 2012 to October 2022. The Bureau of Labor Statistics collects the unemployed population data through the Current Population Survey (CPS), a household survey about the employment situation administered by the U.S. Census Bureau on a sample of 60,000 U.S. households. The GDP data comes from <code>https://ycharts.com</code>, which uses “Macroeconomic Advisors” research results as their data source. Macroeconomic Advisers’ GDP is an indicator of actual aggregate output that is conceptually consistent with real Gross Domestic Product (GDP), using calculation and aggregation methods comparable to the official GDP from the U.S. Bureau of Economic Analysis. In this way, we can view the monthly GDP index. The CPI data is maintained by the U.S. Bureau of Labor Statistics (BLS) and calculated by sampling prices of goods from 6,000 households and 22,000 retail stores each month in 75 major regions in the United States. We chose the unemployed population and CPI data from the Bureau of Labor Statistics because of their reliability and authority. However, we chose the GDP data from <code>https://ycharts.com</code> because it contains monthly GDP data rather than quarterly-updated data from other sources, which is easier to access. The unemployed population and CPI tables both have 13 columns and 11 rows. The 13 columns consist of “Year” and 12 months, respectively, while the 11 rows contain unemployment and CPI data for each month from 2012 to 2022. The column “Year” is in the integer type, and the other 12 columns are in the double type. The GDP table consists of 130 records and 2 columns: Date and GDP value. The “Date” column is in the character type, while the GDP value is in the double type. We did not find any unreasonable issues or problems through our exploration.</p>
+</div>
 </div>
 <div id="cleaning-transformation" class="section level2 hasAnchor" number="3.2">
 <h2><span class="header-section-number">3.2</span> Cleaning / transformation<a href="data.html#cleaning-transformation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In this section, we will discuss how we cleaned and transformed the original datasets into multiple tidy datasets for further visualization regarding these five tasks. The detailed code is included in the Results part.</p>
+<div id="monthly-unemployment-rate-1" class="section level3 hasAnchor" number="3.2.1">
+<h3><span class="header-section-number">3.2.1</span> Monthly Unemployment Rate<a href="data.html#monthly-unemployment-rate-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>First, we retrieved data for unemployment rates online and noticed that it needed to be tidy. We used the <code>pivot_longer()</code> function, and it became a data set with each row as the unemployment rate for a month in a year. Next, we created a date variable from the Year and Month abbreviation by the <code>make_date()</code> function so that we could visualize the time series. Also, we found that there was a missing value in our data set, that is, the unemployment rate in December 2022, and we removed it.</p>
+</div>
+<div id="unemployment-rate-by-state-1" class="section level3 hasAnchor" number="3.2.2">
+<h3><span class="header-section-number">3.2.2</span> Unemployment Rate by State<a href="data.html#unemployment-rate-by-state-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>We intend to visualize the unemployment rates of each state in the United States from October 2019 to September 2022. The unemployment rate data for each state of a specific month is included in a table across multiple pages. We downloaded these pages as “.html” files and utilized the <code>rvest</code> package in R to extract the tables from each page. The unemployment rate data of each month corresponds to a table, and finally, we got 36 tables. We divided these data according to time into 3 groups: from October 2019 to September 2020, from October 2020 to September 2021, and from October 2021 to September 2022. We horizontally merged these 36 tables as 3 dataframes, each corresponding to a defined group. We replaced the “-” symbol with <code>NA</code> and transformed each character column into a double column for calculation. In each group, we computed the mean of the unemployment rates within these 12 months for each state. Notice that there are several missing values for unemployment rate data for Puerto Rico, so we decided to remove this state. Then we formed a new dataframe containing four columns: state and corresponding mean values from these three dataframes to visualize the Cleveland dot plot. We also used the <code>pivot_longer()</code> function to transform it into tidy data to visualize the histogram. For spatial data visualization, we merged this dataframe with the geographical data, such as the longitude and latitude of each state.</p>
+</div>
+<div id="unemployment-rate-by-race-1" class="section level3 hasAnchor" number="3.2.3">
+<h3><span class="header-section-number">3.2.3</span> Unemployment Rate by Race<a href="data.html#unemployment-rate-by-race-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>First, we retrieved data for each of the three races online and noticed that it was not tidy. We used the <code>pivot_longer()</code> function, and it became a data set with each row as the unemployment rate for a month in a year. Second, we created a date variable from the Year and Month abbreviation by the <code>make_date()</code> function so that we could visualize the time series. Also, we created a race variable. We did the same above steps for data of all three races and then combined the data sets together horizontally with the <code>rbind()</code> function.</p>
+</div>
+<div id="unemployment-situation-by-age-and-sex-1" class="section level3 hasAnchor" number="3.2.4">
+<h3><span class="header-section-number">3.2.4</span> Unemployment Situation by Age and Sex<a href="data.html#unemployment-situation-by-age-and-sex-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>There are four different data frames used to show the unemployment condition among different age intervals. Two of them are averaged unemployment population and unemployment rate data in the third quarters from 2019 to 2022. Two of them are monthly unemployment population and unemployment rate data from September 2021 to September 2022. As the original data from the Bureau of Labor Statistics has been Excel sheets categorized by age and sex, we only need some trivial transformation to help us plot corresponding charts.</p>
+<p>For stacked bar charts, we transform our data frames into tidy data with the <code>pivot_longer()</code> method. We changed the year index in the columns into a variable Year so that we can plot four different facets of stacked bar charts based on four different years. We also filtered out the data that represent the sum of unemployment population/rate for both genders as we only need unemployment data for Males and Females for our bar charts.</p>
+<p>For the heatmap, we used the monthly unemployment rate data from September 2021 to September 2022 and transformed our data frames into tidy data with the <code>pivot_longer()</code> method. We changed the month index in the columns into a variable Month so that we can plot the heatmap by setting months as its x-axis. As Gender is not in our consideration for this graph, we left the unemployment rate data for both genders in total using the filter function.</p>
+<p>For mosaic plots, we used the monthly unemployment rate data from September 2021 to September 2022 and transformed our data frames into tidy data with the <code>pivot_longer()</code> method. To better show the frequency among different groups, we divided these data into two age intervals (less than 35 years old or more than 35 years old). We also defined three groups of unemployment population “low” (&lt; 7,000,000 people), “medium” (&gt;= 7,000,000 people &amp; &lt; 17,000,000 people), and “high” (&gt; 17,000,000 people) unemployment population. To calculate the frequency of each group, we group the data by Sex, age_category, and category to see how many groups are in each category.</p>
+</div>
+<div id="relationships-among-unemployed-population-gdp-and-cpi-1" class="section level3 hasAnchor" number="3.2.5">
+<h3><span class="header-section-number">3.2.5</span> Relationships among Unemployed Population, GDP, and CPI<a href="data.html#relationships-among-unemployed-population-gdp-and-cpi-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>We intend to visualize the unemployed population, GDP, and CPI data from January 2012 to October 2022. The unemployed population, GDP, and CPI data can be exported as “.csv” or “.xlsx” files directly, but they are not in a tidy form. We utilized the <code>pivot_longer()</code> function to transform these three dataframes into tidy data, each of which contains three columns: Year, Month, and Value (i.e., unemployed population or GDP or CPI values). Since we will focus on the data until October 2022, we removed the unemployed population and CPI data corresponding to November 2022 and December 2022, which are unavailable now. Then we merged the three dataframes of tidy data form into a new dataframe based on the year and month for plotting the parallel coordinate plot. We split these data into two groups: “Pre-Covid” and “After-Covid”, and added a new column to show these classes. The “Pre-Covid” refers to the data before 2020 and the “After-Covid” data refers to the data after the beginning of 2020.</p>
+</div>
 </div>
 <div id="missing-value-analysis" class="section level2 hasAnchor" number="3.3">
 <h2><span class="header-section-number">3.3</span> Missing value analysis<a href="data.html#missing-value-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In this section, we will analyze and visualize how many missing values are in our datasets for the five aspects mentioned above. We found that for all the datasets, there are only very few rows containing missing values in very few columns. In most cases, only a specific row includes missing values. The common philosophy that we dealt with it is to remove this row directly as it will not influence the completeness of the datasets too much.</p>
+<p>We also discovered that missing values only resulted from two special cases. Firstly, the missing value always appears in the data corresponding to December 2022, which is unavailable without doubt. The appearance of this kind of missing value originates from the untidy form of data. Secondly, for unemployment rates for each state, Puerto Rico sometimes may contain <code>NA</code> data even on the official website. We chose to ignore this special region and focus on other areas.</p>
+<p>Below is the distribution of missing values in the datasets for the five tasks.</p>
+<div id="monthly-unemployment-rate-2" class="section level3 hasAnchor" number="3.3.1">
+<h3><span class="header-section-number">3.3.1</span> Monthly Unemployment Rate<a href="data.html#monthly-unemployment-rate-2" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><img src="finalproj_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p>As the above graphs present, there is only one row missing in two columns. After we investigate, we find that the missing data is for December 2022, but the unemployment data is still unavailable now. Hence, the missing data does not make sense, and we can simply remove it for further time series visualization.</p>
+</div>
+<div id="unemployment-rate-by-state-2" class="section level3 hasAnchor" number="3.3.2">
+<h3><span class="header-section-number">3.3.2</span> Unemployment Rate by State<a href="data.html#unemployment-rate-by-state-2" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><img src="finalproj_files/figure-html/unnamed-chunk-5-1.png" width="672" /><img src="finalproj_files/figure-html/unnamed-chunk-5-2.png" width="672" /><img src="finalproj_files/figure-html/unnamed-chunk-5-3.png" width="672" />
+According to the above three groups of graphs, from October 2019 to September 2020, there is one missing row in three different columns. We found that the missing data comes from the same row, which corresponds to Puerto Rico. There is no missing data from October 2020 to September 2021. Moreover, one missing row appears in two columns from October 2021 to September 2022. We also found that this missing data comes from the Puerto Rico row. These facts indicate that only Puerto Rico may contain missing values. For convenience, we removed the row corresponding to this state for further visualization.</p>
+</div>
+<div id="unemployment-rate-by-race-2" class="section level3 hasAnchor" number="3.3.3">
+<h3><span class="header-section-number">3.3.3</span> Unemployment Rate by Race<a href="data.html#unemployment-rate-by-race-2" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><img src="finalproj_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<p>According to the above graphs, this dataset contains three missing data in the “Unemployment Rate” column. We found that these three missing rows correspond to December 2022 for White, Asian, and Black, respectively. The data for December 2022 is unavailable now, and we should remove them. After that, we can use this dataset to visualize the unemployment rates for different races.</p>
+</div>
+<div id="unemployment-situation-by-age-and-sex-2" class="section level3 hasAnchor" number="3.3.4">
+<h3><span class="header-section-number">3.3.4</span> Unemployment Situation by Age and Sex<a href="data.html#unemployment-situation-by-age-and-sex-2" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><img src="finalproj_files/figure-html/unnamed-chunk-7-1.png" width="672" /><img src="finalproj_files/figure-html/unnamed-chunk-7-2.png" width="672" /><img src="finalproj_files/figure-html/unnamed-chunk-7-3.png" width="672" /><img src="finalproj_files/figure-html/unnamed-chunk-7-4.png" width="672" /></p>
+<p>The above four groups of graphs exhibit that there are no missing values within these dataframes, and we can directly use these data for visualization regarding unemployment situation by age and sex.</p>
+</div>
+<div id="relationships-among-unemployed-population-gdp-and-cpi-2" class="section level3 hasAnchor" number="3.3.5">
+<h3><span class="header-section-number">3.3.5</span> Relationships among Unemployed Population, GDP, and CPI<a href="data.html#relationships-among-unemployed-population-gdp-and-cpi-2" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><img src="finalproj_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
+<p>As the above graphs show, the dataset containing the unemployed population, GDP, CPI, and “Pre/After-Covid” classes do not have any missing values. This dataset is complete and can be directly used for visualizing the relationship between the unemployed population, GDP, and CPI.</p>
 
+</div>
 </div>
 </div>
             </section>

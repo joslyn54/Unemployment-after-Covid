@@ -112,6 +112,7 @@ plot_missing(df_2020, percent = FALSE)
 plot_missing(df_2021, percent = FALSE)
 plot_missing(df_2022, percent = FALSE)
 ```
+
 According to the above three groups of graphs, from October 2019 to September 2020, there is one missing row in three different columns. We found that the missing data comes from the same row, which corresponds to Puerto Rico. There is no missing data from October 2020 to September 2021. Moreover, one missing row appears in two columns from October 2021 to September 2022. We also found that this missing data comes from the Puerto Rico row. These facts indicate that only Puerto Rico may contain missing values. For convenience, we removed the row corresponding to this state for further visualization. 
 
 
