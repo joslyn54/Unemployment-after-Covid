@@ -4,8 +4,6 @@
 
 ## Unemployment Situation by State
 
-Cleaning & Transforming:
-
 ```{r}
 library(rvest)
 library(dplyr)
@@ -75,14 +73,13 @@ names(df)[names(df) == "mean_2020"] <- "Oct 2019 ~ Sep 2020"
 names(df)[names(df) == "mean_2021"] <- "Oct 2020 ~ Sep 2021"
 names(df)[names(df) == "mean_2022"] <- "Oct 2021 ~ Sep 2022"
 
-df
 ```
 ### Histogram
 
 ```{r}
 # transform to tidy data
 df_tidy <- df %>% pivot_longer(cols = !State, names_to = "Year",values_to = "mean")
-df_tidy
+
 ```
 
 
@@ -129,6 +126,7 @@ This Cleveland dot plot exhibits the unemployment rates of each state in the Uni
 us_states <- map_data("state")
 df_tidy$region <- tolower(df_tidy$State)
 df_us <- left_join(us_states, df_tidy, by="region")
+
 ```
 
 ```{r}
@@ -146,6 +144,7 @@ ggplot(data = df_us, mapping = aes(x = long, y = lat,
     theme(axis.text.x = element_text(size = 8, vjust=0.5)) +
     theme(axis.text.y = element_text(size = 6)) +
     theme(plot.title = element_text(size=12, vjust=TRUE, hjust=0.5)) 
+
 ```
 The above maps show the geographical distribution of average monthly unemployment rates in the U.S. from October 2019 to September 2020, from October 2020 to September 2021, and from October 2021 to September 2022. The shade of color reflects the average unemployment rates during different periods. Deeper blue represents a higher unemployment rate, while lighter blue represents a lower one. We can see the most serious unemployed situations happened from October 2019 to September 2020 from the deeper blue across the U.S. because of the burst of Covid-19. During this period, Nevada had the highest average unemployment rate of over 10% since this state is colored with the deepest blue. In the following 24 months, the unemployment rates in most states gradually dropped as the color on the map gradually becomes lighter. The average unemployment rate from October 2020 to September 2021 in each state was lower than that from October 2019 to October 2020. Also, the average unemployment rate from October 2021 to September 2022 in each state was lower than that from October 2020 to October 2021. These three maps all reveal a pattern that in a specific period, western, southern, and southeastern states suffered more severe unemployed than states in the north and middle, as western, southern, and southeastern states are colored with deeper blue on the map than other states. 
 
@@ -176,7 +175,6 @@ df_corr <- data.frame(Year = as.vector(cpi_data $Year),
 # mark different periods
 df_corr <- df_corr %>% mutate(Period = case_when(Year <= 2019 ~ 'Pre-Covid',
                                                   TRUE ~ 'After-Covid'))
-df_corr
 ```
 
 ### Parallel Coordinate Plot
@@ -185,4 +183,5 @@ df_corr
 ggparcoord(df_corr, columns=2:4, groupColumn = 5, alpha=0.5, scale='uniminmax',
            title = "Parallel Coordinate Plot for Unemployed Population, CPI & GDP from 2012 to 2022") +theme(plot.title = element_text(size=12, vjust=TRUE, hjust=0.5)) 
 ```
+
 This parallel coordinate plot exhibits the relationship between the unemployed population, GDP, and CPI from January 2012 to October 2022. Each line represents a piece of monthly data on the unemployed population, GDP, and CPI. The data before 2020 is considered as the Pre-Covid period and labeled with green, and the data after 2020 (inclusive) is considered as the After-Covid period and labeled with red. All the unemployed population, GDP, and CPI data are standardized. Both before and after Covid-19, CPI negatively corresponded to the unemployed population. In other words, a higher CPI corresponds to a lower unemployed population and vice versa. However, during the past ten years, the several high CPI and unemployed population data were all from the After-Covid period. We can infer that the Covid-19 pandemic resulted in severe inflation and job loss, significantly impacting people's lives. Moreover, the unemployed population also negatively corresponded to GDP in both Pre-Covid and After-Covid periods. That is, a higher unemployed population corresponds to a lower GDP. In the past ten years, most GDP values after Covid-19 were still higher than before Covid-19, indicating that generally speaking, GDP in the U.S. had grown gradually in the past ten years. However, due to the enormous impact of the Covid-19 pandemic, several pieces of GDP data were lower than some Pre-Covid GDP values and connected with high unemployed population data. 
