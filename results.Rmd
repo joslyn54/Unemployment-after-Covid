@@ -1,1 +1,183 @@
 # Results
+
+## 4.2 Unemployment Situation by State
+
+### Cleaning & Transforming
+
+```{r}
+library(rvest)
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
+library(ggmap)
+library(gridExtra)
+library(cdparcoord)
+library("readxl")
+
+# get tables from html and merge 12 tables
+generate_table <- function(year_1, year_2){
+  filename = ""
+  month <- c("10", "11", "12", "01", "02", "03", "04", "05", "06", "07", "08", "09")
+  cnt <- 2
+  df <- html_table(read_html(paste(year_1, "10.html", sep="")))[3]
+
+  repeat {
+  if (cnt <= 3) {
+    filename <- paste(year_1, month[cnt], ".html", sep="")
+  }
+  if (cnt >3 && cnt <= 12) {
+    filename <- paste(year_2, month[cnt], ".html", sep="")
+  }
+  if (cnt > 12) {
+    break
+  }
+  df1 <- html_table(read_html(filename))[3]
+  df <- merge(df, df1)
+  cnt <- cnt + 1
+  }
+  
+  # replace "-" with NA and transform char columns into double columns
+  df <- df %>% mutate(across(where(is.character) & !c(State), ~as.numeric(na_if(., "-"))))
+  df <- data.frame(df)
+  return(df)
+}
+```
+
+```{r}
+# get unemployment rates from October 2019 to September 2020
+df_2020 <- generate_table("2019", "2020")
+# calculate the mean by state of this year 
+df_2020$Mean <- rowMeans(df_2020[,2:13])
+
+# get unemployment rates from October 2020 to September 2021
+df_2021 <- generate_table("2020", "2021")
+# calculate the mean by state of this year 
+df_2021$Mean <- rowMeans(df_2021[,2:13])
+
+# get unemployment rates from October 2021 to September 2022
+df_2022 <- generate_table("2021", "2022")
+# calculate the mean by state of this year 
+df_2022$Mean <- rowMeans(df_2022[,2:13])
+
+# merge the mean over these three years
+df <- df_2020["State"]
+df["mean_2020"] <- df_2020["Mean"]
+df["mean_2021"] <- df_2021["Mean"]
+df["mean_2022"] <- df_2022["Mean"]
+
+# considering Puerto Rico contains NA values, remove it
+df <- df %>% filter(State != "Puerto Rico")
+
+# for convenience, rename the columns of the dataframe
+names(df)[names(df) == "mean_2020"] <- "Oct 2019 ~ Sep 2020"
+names(df)[names(df) == "mean_2021"] <- "Oct 2020 ~ Sep 2021"
+names(df)[names(df) == "mean_2022"] <- "Oct 2021 ~ Sep 2022"
+
+df
+```
+### 4.2.1. Histogram
+
+```{r}
+# transform to tidy data
+df_tidy <- df %>% pivot_longer(cols = !State, names_to = "Year",values_to = "mean")
+df_tidy
+```
+
+
+```{r}
+ggplot(df_tidy, aes(x = `mean`)) + 
+  geom_histogram(alpha=0.9, binwidth = 1, fill="lightblue") + 
+  facet_wrap(~ Year, ncol=1) +
+  xlab("Average Unemployment Rate (%)") +
+  ylab("Frequency") +
+  ggtitle("Unemployment Rate Distribution of Each State in Recent Three Years") + 
+  theme(axis.text.x = element_text(size = 8, vjust=0.5)) +
+  theme(axis.text.y = element_text(size = 6)) +
+  theme(plot.title = element_text(size=12, vjust=TRUE, hjust=0.5)) 
+
+```
+
+These three histogram graphs present the distribution of average unemployment rates of each state in the U.S. from October 2019 to September 2020, from October 2020 to September 2021, and from October 2021 to September 2022. The x-axis represents the average unemployment rate (%), and the y-axis represents how many states have such an unemployment rate. From October 2019 to September 2020, each state's unemployment rate ranged from 3% to 12.5%, and most states had more than 5% unemployment rates. There was also a state with an average unemployment rate of over 11%. From October 2020 to September 2021, the average unemployment rate of most states ranged from 3.5% to 7.5%. It is obvious that the median of each state's unemployment rate shifted left, compared to the previous 12 months, which indicates that the unemployed situation was alleviated to some extent. As for the period of October 2021 to September 2022, the median of each state's unemployment rate shifted left further. Most states had decreased their unemployment rate below 5%, verifying that job markets recovered after the Covid-19 pandemic. 
+
+
+### 4.2.2. Cleveland Plot
+```{r}
+# plot the Cleveland plot
+ggplot(df, aes(y=reorder(State, `Oct 2019 ~ Sep 2020`))) +
+  geom_point(aes(x=`Oct 2019 ~ Sep 2020`,color="mean_2020")) + 
+  geom_point(aes(x=`Oct 2020 ~ Sep 2021`,color="mean_2021")) +
+  geom_point(aes(x=`Oct 2021 ~ Sep 2022`,color="mean_2022")) +
+  xlab("Unemployment Rate(%)") +
+  ylab("State")+
+  ggtitle("Unemploymemt Rates for Recent Three Years of Each State in the U.S.") + 
+  scale_color_manual(values = c(mean_2020 = "#F67280", mean_2021 = "#488AC7", mean_2022="#00FF00"),
+                     labels= c("Oct 2019 - Sep 2020","Oct 2020 - Sep 2021", "Oct 2021 - Sep 2022"), 
+                     name = NULL) +
+  theme(axis.text.x = element_text(size = 8, vjust=0.5)) +
+  theme(axis.text.y = element_text(size = 6)) +
+  theme(plot.title = element_text(size=12, vjust=TRUE, hjust=0.5)) 
+```
+
+This Cleveland dot plot exhibits the unemployment rates of each state in the United States during three different periods of recent 36 months. The red, blue, and green dots represent the average monthly unemployment rates from October 2019 to September 2020, from October 2020 to September 2021, and from October 2021 to September 2022. The states on the y-axis are ordered by the average monthly unemployment rates between October 2019 and September 2020. Due to the missing data on Puerto Rico, this graph does not include the unemployment rate data of this state. As this graph shows, in the last 36 months, all the states had the highest unemployment rates between October 2019 and September 2020, and approximately ten states reached more than a 7.5% unemployment rate during this period. These extremely high unemployment rates resulted from the burst of the Covid-19 pandemic, which hugely impacted various industries and caused many people to lose their jobs. During this period, Nevada had the highest unemployment rate of over 12.5% among all the states, while South Dakota had the lowest, which is around 4%. However, this difficult unemployed situation was gradually alleviated in the following 24 months. For most U.S. states, the average unemployment rates for the recent 24-12 months and the recent 12 months gradually decreased from October 2020 to September 2022, except for Connecticut. The average unemployment rate in Connecticut between October 2020 and September 2021 was even higher than that between October 2019 and September 2020. Until September 2022, most states had lowered their average unemployment rate for the recent 12 months below 5%. 
+
+
+### 4.2.3 Map
+```{r}
+# merge our dataframe and geographical data
+us_states <- map_data("state")
+df_tidy$region <- tolower(df_tidy$State)
+df_us <- left_join(us_states, df_tidy, by="region")
+```
+
+```{r}
+# plot the map
+ggplot(data = df_us, mapping = aes(x = long, y = lat,
+                          group = group, fill = mean)) + 
+    facet_wrap(~ Year, ncol=1) + 
+    geom_polygon(color = "gray90", size = 0.1) +
+    coord_map(projection = "albers", lat0 = 39, lat1 = 45) +
+    scale_fill_gradient2(low = "white", high = "#00A9FF") + 
+    labs(fill = "Unemployment Rate (%)") + 
+    xlab("Longitude") +
+    ylab("Latitude")+
+    ggtitle("Unemployment Rates by Each State in Recent Three Years") + 
+    theme(axis.text.x = element_text(size = 8, vjust=0.5)) +
+    theme(axis.text.y = element_text(size = 6)) +
+    theme(plot.title = element_text(size=12, vjust=TRUE, hjust=0.5)) 
+```
+The above maps show the geographical distribution of average monthly unemployment rates in the U.S. from October 2019 to September 2020, from October 2020 to September 2021, and from October 2021 to September 2022. The shade of color reflects the average unemployment rates during different periods. Deeper blue represents a higher unemployment rate, while lighter blue represents a lower one. We can see the most serious unemployed situations happened from October 2019 to September 2020 from the deeper blue across the U.S. because of the burst of Covid-19. During this period, Nevada had the highest average unemployment rate of over 10% since this state is colored with the deepest blue. In the following 24 months, the unemployment rates in most states gradually dropped as the color on the map gradually becomes lighter. The average unemployment rate from October 2020 to September 2021 in each state was lower than that from October 2019 to October 2020. Also, the average unemployment rate from October 2021 to September 2022 in each state was lower than that from October 2020 to October 2021. These three maps all reveal a pattern that in a specific period, western, southern, and southeastern states suffered more severe unemployed than states in the north and middle, as western, southern, and southeastern states are colored with deeper blue on the map than other states. 
+
+
+## 4.5 Unemployment and CPI and GDP
+
+```{r}
+# read the CPI data and process
+cpi_data <- read_excel("CPI.xlsx")
+cpi_data <- cpi_data %>% pivot_longer(cols = !Year, names_to = "Month",values_to = "CPI_Value")
+cpi_data <- cpi_data %>% filter(!(`Year` == 2022 & `Month` == "Nov"))  %>% filter(!(Year == 2022 & Month == "Dec"))
+
+# read the unemployed data and process
+unemploy_data <- read_excel("unemploy.xlsx")
+unemploy_data <- unemploy_data  %>% pivot_longer(cols = !Year, names_to = "Month",values_to = "Unemployment Population")
+unemploy_data <- unemploy_data %>% filter(!(`Year` == 2022 & `Month` == "Nov"))  %>% filter(!(Year == 2022 & Month == "Dec"))
+
+# read the GDP data
+gdp_data <- read.csv(file = 'GDP.csv')
+df_corr <- data.frame(Year = as.vector(cpi_data $Year),
+                      CPI = as.vector(cpi_data $CPI_Value),
+                      `Unemployment_Population` = as.vector(unemploy_data$`Unemployment Population`),
+                      GDP = as.vector(gdp_data$GDP))
+
+# mark different periods
+df_corr <- df_corr %>% mutate(Period = case_when(Year <= 2019 ~ 'Pre-Covid',
+                                                  TRUE ~ 'After-Covid'))
+df_corr
+```
+
+### Parallel Coordinate Plot
+```{r}
+# plot the parallel coordinate plot
+ggparcoord(df_corr, columns=2:4, groupColumn = 5, alpha=0.5, scale='uniminmax',
+           title = "Parallel Coordinate Plot for Unemployed Population, CPI & GDP from 2012 to 2022") +theme(plot.title = element_text(size=12, vjust=TRUE, hjust=0.5)) 
+```
+This parallel coordinate plot exhibits the relationship between the unemployed population, GDP, and CPI from January 2012 to October 2022. Each line represents a piece of monthly data on the unemployed population, GDP, and CPI. The data before 2020 is considered as the Pre-Covid period and labeled with green, and the data after 2020 (inclusive) is considered as the After-Covid period and labeled with red. All the unemployed population, GDP, and CPI data are standardized. Both before and after Covid-19, CPI negatively corresponded to the unemployed population. In other words, a higher CPI corresponds to a lower unemployed population and vice versa. However, during the past ten years, the several high CPI and unemployed population data were all from the After-Covid period. We can infer that the Covid-19 pandemic resulted in severe inflation and job loss, significantly impacting people's lives. Moreover, the unemployed population also negatively corresponded to GDP in both Pre-Covid and After-Covid periods. That is, a higher unemployed population corresponds to a lower GDP. In the past ten years, most GDP values after Covid-19 were still higher than before Covid-19, indicating that generally speaking, GDP in the U.S. had grown gradually in the past ten years. However, due to the enormous impact of the Covid-19 pandemic, several pieces of GDP data were lower than some Pre-Covid GDP values and connected with high unemployed population data. 
