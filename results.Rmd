@@ -19,14 +19,14 @@ generate_table <- function(year_1, year_2){
   filename = ""
   month <- c("10", "11", "12", "01", "02", "03", "04", "05", "06", "07", "08", "09")
   cnt <- 2
-  df <- html_table(read_html(paste(year_1, "10.html", sep="")))[3]
+  df <- html_table(read_html(paste("data/", year_1, "10.html", sep="")))[3]
 
   repeat {
   if (cnt <= 3) {
-    filename <- paste(year_1, month[cnt], ".html", sep="")
+    filename <- paste("data/", year_1, month[cnt], ".html", sep="")
   }
   if (cnt >3 && cnt <= 12) {
-    filename <- paste(year_2, month[cnt], ".html", sep="")
+    filename <- paste("data/", year_2, month[cnt], ".html", sep="")
   }
   if (cnt > 12) {
     break
@@ -156,17 +156,17 @@ The above maps show the geographical distribution of average monthly unemploymen
 
 ```{r}
 # read the CPI data and process
-cpi_data <- read_excel("CPI.xlsx")
+cpi_data <- read_excel("data/CPI.xlsx")
 cpi_data <- cpi_data %>% pivot_longer(cols = !Year, names_to = "Month",values_to = "CPI_Value")
 cpi_data <- cpi_data %>% filter(!(`Year` == 2022 & `Month` == "Nov"))  %>% filter(!(Year == 2022 & Month == "Dec"))
 
 # read the unemployed data and process
-unemploy_data <- read_excel("unemploy.xlsx")
+unemploy_data <- read_excel("data/unemploy.xlsx")
 unemploy_data <- unemploy_data  %>% pivot_longer(cols = !Year, names_to = "Month",values_to = "Unemployment Population")
 unemploy_data <- unemploy_data %>% filter(!(`Year` == 2022 & `Month` == "Nov"))  %>% filter(!(Year == 2022 & Month == "Dec"))
 
 # read the GDP data
-gdp_data <- read.csv(file = 'GDP.csv')
+gdp_data <- read.csv(file = 'data/GDP.csv')
 df_corr <- data.frame(Year = as.vector(cpi_data $Year),
                       CPI = as.vector(cpi_data $CPI_Value),
                       `Unemployment_Population` = as.vector(unemploy_data$`Unemployment Population`),

@@ -91,7 +91,7 @@ library(redav)
 
 ```{r}
 # read the data
-unemployment = read.csv("unemployment.csv")
+unemployment = read.csv("data/unemployment.csv")
 # plot missing value distribution 
 plot_missing(unemployment, percent = FALSE)
 ```
@@ -103,9 +103,9 @@ As the above graphs present, there is only one row missing in two columns. After
 
 ```{r}
 # read the data
-df_2020 = read.csv("df2020.csv")
-df_2021 = read.csv("df2021.csv")
-df_2022 = read.csv("df2022.csv")
+df_2020 = read.csv("data/df2020.csv")
+df_2021 = read.csv("data/df2021.csv")
+df_2022 = read.csv("data/df2022.csv")
 
 # plot missing value distribution 
 plot_missing(df_2020, percent = FALSE)
@@ -120,7 +120,7 @@ According to the above three groups of graphs, from October 2019 to September 20
 
 ```{r}
 # read the data
-race = read.csv("race.csv")
+race = read.csv("data/race.csv")
 
 # plot missing value distribution 
 plot_missing(race, percent = FALSE)
@@ -133,10 +133,10 @@ According to the above graphs, this dataset contains three missing data in the "
 
 ```{r}
 # read the data
-population = read.csv("upop.csv")
-rate = read.csv("urate.csv")
-rate_monthly = read.csv("urate_monthly.csv")
-population_monthly = read.csv("upop_monthly.csv")
+population = read.csv("data/upop.csv")
+rate = read.csv("data/urate.csv")
+rate_monthly = read.csv("data/urate_monthly.csv")
+population_monthly = read.csv("data/upop_monthly.csv")
 
 # plot missing value distribution 
 plot_missing(population, percent = TRUE)
@@ -152,7 +152,7 @@ The above four groups of graphs exhibit that there are no missing values within 
 
 ```{r}
 # read the data
-df_corr = read.csv("df_corr.csv")
+df_corr = read.csv("data/df_corr.csv")
 
 # plot missing value distribution 
 plot_missing(df_corr, percent = TRUE)
