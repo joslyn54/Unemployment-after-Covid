@@ -14,3 +14,10 @@ missing-value-analysis
 results
 interactive-component
 conclusion
+unemployment-situation-by-state
+cleaning-transforming
+histogram
+cleveland-plot
+map
+unemployment-and-cpi-and-gdp
+parallel-coordinate-plot

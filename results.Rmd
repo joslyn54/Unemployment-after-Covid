@@ -1,9 +1,10 @@
 # Results
 
+## xxx
 
-## 4.2 Unemployment Situation by State
+## Unemployment Situation by State
 
-### Cleaning & Transforming
+Cleaning & Transforming:
 
 ```{r}
 library(rvest)
@@ -76,7 +77,7 @@ names(df)[names(df) == "mean_2022"] <- "Oct 2021 ~ Sep 2022"
 
 df
 ```
-### 4.2.1. Histogram
+### Histogram
 
 ```{r}
 # transform to tidy data
@@ -101,7 +102,7 @@ ggplot(df_tidy, aes(x = `mean`)) +
 These three histogram graphs present the distribution of average unemployment rates of each state in the U.S. from October 2019 to September 2020, from October 2020 to September 2021, and from October 2021 to September 2022. The x-axis represents the average unemployment rate (%), and the y-axis represents how many states have such an unemployment rate. From October 2019 to September 2020, each state's unemployment rate ranged from 3% to 12.5%, and most states had more than 5% unemployment rates. There was also a state with an average unemployment rate of over 11%. From October 2020 to September 2021, the average unemployment rate of most states ranged from 3.5% to 7.5%. It is obvious that the median of each state's unemployment rate shifted left, compared to the previous 12 months, which indicates that the unemployed situation was alleviated to some extent. As for the period of October 2021 to September 2022, the median of each state's unemployment rate shifted left further. Most states had decreased their unemployment rate below 5%, verifying that job markets recovered after the Covid-19 pandemic. 
 
 
-### 4.2.2. Cleveland Plot
+###  Cleveland Plot
 ```{r}
 # plot the Cleveland plot
 ggplot(df, aes(y=reorder(State, `Oct 2019 ~ Sep 2020`))) +
@@ -122,7 +123,7 @@ ggplot(df, aes(y=reorder(State, `Oct 2019 ~ Sep 2020`))) +
 This Cleveland dot plot exhibits the unemployment rates of each state in the United States during three different periods of recent 36 months. The red, blue, and green dots represent the average monthly unemployment rates from October 2019 to September 2020, from October 2020 to September 2021, and from October 2021 to September 2022. The states on the y-axis are ordered by the average monthly unemployment rates between October 2019 and September 2020. Due to the missing data on Puerto Rico, this graph does not include the unemployment rate data of this state. As this graph shows, in the last 36 months, all the states had the highest unemployment rates between October 2019 and September 2020, and approximately ten states reached more than a 7.5% unemployment rate during this period. These extremely high unemployment rates resulted from the burst of the Covid-19 pandemic, which hugely impacted various industries and caused many people to lose their jobs. During this period, Nevada had the highest unemployment rate of over 12.5% among all the states, while South Dakota had the lowest, which is around 4%. However, this difficult unemployed situation was gradually alleviated in the following 24 months. For most U.S. states, the average unemployment rates for the recent 24-12 months and the recent 12 months gradually decreased from October 2020 to September 2022, except for Connecticut. The average unemployment rate in Connecticut between October 2020 and September 2021 was even higher than that between October 2019 and September 2020. Until September 2022, most states had lowered their average unemployment rate for the recent 12 months below 5%. 
 
 
-### 4.2.3 Map
+###  Map
 ```{r}
 # merge our dataframe and geographical data
 us_states <- map_data("state")
@@ -148,8 +149,11 @@ ggplot(data = df_us, mapping = aes(x = long, y = lat,
 ```
 The above maps show the geographical distribution of average monthly unemployment rates in the U.S. from October 2019 to September 2020, from October 2020 to September 2021, and from October 2021 to September 2022. The shade of color reflects the average unemployment rates during different periods. Deeper blue represents a higher unemployment rate, while lighter blue represents a lower one. We can see the most serious unemployed situations happened from October 2019 to September 2020 from the deeper blue across the U.S. because of the burst of Covid-19. During this period, Nevada had the highest average unemployment rate of over 10% since this state is colored with the deepest blue. In the following 24 months, the unemployment rates in most states gradually dropped as the color on the map gradually becomes lighter. The average unemployment rate from October 2020 to September 2021 in each state was lower than that from October 2019 to October 2020. Also, the average unemployment rate from October 2021 to September 2022 in each state was lower than that from October 2020 to October 2021. These three maps all reveal a pattern that in a specific period, western, southern, and southeastern states suffered more severe unemployed than states in the north and middle, as western, southern, and southeastern states are colored with deeper blue on the map than other states. 
 
+## xx
 
-## 4.5 Unemployment and CPI and GDP
+## xxx
+
+## Unemployment and CPI and GDP
 
 ```{r}
 # read the CPI data and process
