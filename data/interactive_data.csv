@@ -1,0 +1,1837 @@
+Month,State,Unemployment_Rate
+October2019,Alabama,3
+November2019,Alabama,3.1
+December2019,Alabama,3.2
+January2020,Alabama,3.3
+February2020,Alabama,3.4
+March2020,Alabama,3.6
+April2020,Alabama,13.7
+May2020,Alabama,10.4
+June2020,Alabama,8.7
+July2020,Alabama,7.7
+August2020,Alabama,6.6
+September2020,Alabama,6.1
+October2020,Alabama,5.3
+November2020,Alabama,4.8
+December2020,Alabama,4.4
+January2021,Alabama,4
+February2021,Alabama,3.8
+March2021,Alabama,3.7
+April2021,Alabama,3.6
+May2021,Alabama,3.6
+June2021,Alabama,3.5
+July2021,Alabama,3.4
+August2021,Alabama,3.3
+September2021,Alabama,3.2
+October2021,Alabama,3.1
+November2021,Alabama,3.1
+December2021,Alabama,3.1
+January2022,Alabama,3.1
+February2022,Alabama,3
+March2022,Alabama,2.9
+April2022,Alabama,2.8
+May2022,Alabama,2.7
+June2022,Alabama,2.6
+July2022,Alabama,2.6
+August2022,Alabama,2.6
+September2022,Alabama,2.6
+October2019,Alaska,5.3
+November2019,Alaska,5.2
+December2019,Alaska,5.2
+January2020,Alaska,5.2
+February2020,Alaska,5.2
+March2020,Alaska,5.2
+April2020,Alaska,11.9
+May2020,Alaska,11.9
+June2020,Alaska,11.3
+July2020,Alaska,11.2
+August2020,Alaska,7.8
+September2020,Alaska,7.7
+October2020,Alaska,7.3
+November2020,Alaska,7.2
+December2020,Alaska,7.3
+January2021,Alaska,7.1
+February2021,Alaska,7
+March2021,Alaska,7
+April2021,Alaska,7
+May2021,Alaska,6.8
+June2021,Alaska,6.8
+July2021,Alaska,6.5
+August2021,Alaska,6.3
+September2021,Alaska,5.9
+October2021,Alaska,5.7
+November2021,Alaska,5.5
+December2021,Alaska,5.5
+January2022,Alaska,5.6
+February2022,Alaska,5.3
+March2022,Alaska,4.9
+April2022,Alaska,4.8
+May2022,Alaska,4.6
+June2022,Alaska,4.6
+July2022,Alaska,4.5
+August2022,Alaska,4.6
+September2022,Alaska,4.4
+October2019,Arizona,4.8
+November2019,Arizona,4.9
+December2019,Arizona,4.9
+January2020,Arizona,5
+February2020,Arizona,5
+March2020,Arizona,5.1
+April2020,Arizona,13.9
+May2020,Arizona,11
+June2020,Arizona,9.5
+July2020,Arizona,8.6
+August2020,Arizona,7.6
+September2020,Arizona,7.2
+October2020,Arizona,6.7
+November2020,Arizona,6.5
+December2020,Arizona,6.3
+January2021,Arizona,6.1
+February2021,Arizona,6
+March2021,Arizona,5.8
+April2021,Arizona,5.6
+May2021,Arizona,5.4
+June2021,Arizona,5.2
+July2021,Arizona,4.9
+August2021,Arizona,4.5
+September2021,Arizona,4.2
+October2021,Arizona,3.9
+November2021,Arizona,3.9
+December2021,Arizona,3.9
+January2022,Arizona,3.7
+February2022,Arizona,3.6
+March2022,Arizona,3.3
+April2022,Arizona,3.2
+May2022,Arizona,3.2
+June2022,Arizona,3.3
+July2022,Arizona,3.3
+August2022,Arizona,3.5
+September2022,Arizona,3.7
+October2019,Arkansas,3.5
+November2019,Arkansas,3.5
+December2019,Arkansas,3.5
+January2020,Arkansas,3.5
+February2020,Arkansas,3.6
+March2020,Arkansas,4.9
+April2020,Arkansas,10
+May2020,Arkansas,8.7
+June2020,Arkansas,7.6
+July2020,Arkansas,7.1
+August2020,Arkansas,6.2
+September2020,Arkansas,5.8
+October2020,Arkansas,5.4
+November2020,Arkansas,5.2
+December2020,Arkansas,5
+January2021,Arkansas,4.9
+February2021,Arkansas,4.8
+March2021,Arkansas,4.6
+April2021,Arkansas,4.5
+May2021,Arkansas,4.4
+June2021,Arkansas,4.2
+July2021,Arkansas,4
+August2021,Arkansas,3.8
+September2021,Arkansas,3.5
+October2021,Arkansas,3.4
+November2021,Arkansas,3.3
+December2021,Arkansas,3.3
+January2022,Arkansas,3.2
+February2022,Arkansas,3.1
+March2022,Arkansas,3.1
+April2022,Arkansas,3.2
+May2022,Arkansas,3.2
+June2022,Arkansas,3.2
+July2022,Arkansas,3.3
+August2022,Arkansas,3.4
+September2022,Arkansas,3.5
+October2019,California,4.1
+November2019,California,4.1
+December2019,California,4.1
+January2020,California,4.1
+February2020,California,4.1
+March2020,California,5.5
+April2020,California,15.9
+May2020,California,16.1
+June2020,California,14.1
+July2020,California,13.4
+August2020,California,11.9
+September2020,California,10.3
+October2020,California,9.5
+November2020,California,9.2
+December2020,California,9.2
+January2021,California,8.8
+February2021,California,8.6
+March2021,California,8.4
+April2021,California,8.3
+May2021,California,7.9
+June2021,California,7.9
+July2021,California,7.4
+August2021,California,7
+September2021,California,6.4
+October2021,California,6.1
+November2021,California,5.8
+December2021,California,5.8
+January2022,California,5.7
+February2022,California,5.3
+March2022,California,4.8
+April2022,California,4.6
+May2022,California,4.3
+June2022,California,4.2
+July2022,California,3.9
+August2022,California,4.1
+September2022,California,3.8
+October2019,Colorado,2.5
+November2019,Colorado,2.6
+December2019,Colorado,2.6
+January2020,Colorado,2.7
+February2020,Colorado,2.8
+March2020,Colorado,4.8
+April2020,Colorado,11.6
+May2020,Colorado,11.8
+June2020,Colorado,11
+July2020,Colorado,6.6
+August2020,Colorado,6.2
+September2020,Colorado,6.4
+October2020,Colorado,6.1
+November2020,Colorado,6.2
+December2020,Colorado,6.4
+January2021,Colorado,6.2
+February2021,Colorado,6.2
+March2021,Colorado,6.1
+April2021,Colorado,6.1
+May2021,Colorado,5.8
+June2021,Colorado,5.9
+July2021,Colorado,5.6
+August2021,Colorado,5.3
+September2021,Colorado,4.7
+October2021,Colorado,4.5
+November2021,Colorado,4.3
+December2021,Colorado,4.2
+January2022,Colorado,4.2
+February2022,Colorado,4
+March2022,Colorado,3.7
+April2022,Colorado,3.6
+May2022,Colorado,3.5
+June2022,Colorado,3.4
+July2022,Colorado,3.3
+August2022,Colorado,3.4
+September2022,Colorado,3.4
+October2019,Connecticut,3.5
+November2019,Connecticut,3.5
+December2019,Connecticut,3.5
+January2020,Connecticut,3.4
+February2020,Connecticut,3.4
+March2020,Connecticut,3.4
+April2020,Connecticut,8
+May2020,Connecticut,11.4
+June2020,Connecticut,11.1
+July2020,Connecticut,11.2
+August2020,Connecticut,9.5
+September2020,Connecticut,8.9
+October2020,Connecticut,8.1
+November2020,Connecticut,7.8
+December2020,Connecticut,7.7
+January2021,Connecticut,7.3
+February2021,Connecticut,7.2
+March2021,Connecticut,7
+April2021,Connecticut,7
+May2021,Connecticut,6.7
+June2021,Connecticut,6.7
+July2021,Connecticut,6.3
+August2021,Connecticut,6.1
+September2021,Connecticut,5.6
+October2021,Connecticut,5.4
+November2021,Connecticut,5.2
+December2021,Connecticut,5.1
+January2022,Connecticut,5.3
+February2022,Connecticut,4.9
+March2022,Connecticut,4.6
+April2022,Connecticut,4.4
+May2022,Connecticut,4.2
+June2022,Connecticut,4
+July2022,Connecticut,3.7
+August2022,Connecticut,4.1
+September2022,Connecticut,4
+October2019,Delaware,3.8
+November2019,Delaware,3.7
+December2019,Delaware,3.7
+January2020,Delaware,3.7
+February2020,Delaware,3.7
+March2020,Delaware,5
+April2020,Delaware,13.1
+May2020,Delaware,13.3
+June2020,Delaware,12.7
+July2020,Delaware,7.7
+August2020,Delaware,7.5
+September2020,Delaware,7.6
+October2020,Delaware,5.3
+November2020,Delaware,5.4
+December2020,Delaware,5.6
+January2021,Delaware,5.7
+February2021,Delaware,5.7
+March2021,Delaware,5.8
+April2021,Delaware,5.8
+May2021,Delaware,5.7
+June2021,Delaware,5.7
+July2021,Delaware,5.5
+August2021,Delaware,5.3
+September2021,Delaware,5
+October2021,Delaware,4.9
+November2021,Delaware,4.8
+December2021,Delaware,4.8
+January2022,Delaware,4.8
+February2022,Delaware,4.6
+March2022,Delaware,4.5
+April2022,Delaware,4.5
+May2022,Delaware,4.5
+June2022,Delaware,4.5
+July2022,Delaware,4.4
+August2022,Delaware,4.5
+September2022,Delaware,4.3
+October2019,District of Columbia,4.9
+November2019,District of Columbia,5
+December2019,District of Columbia,5.1
+January2020,District of Columbia,5.3
+February2020,District of Columbia,5.4
+March2020,District of Columbia,5.5
+April2020,District of Columbia,11.1
+May2020,District of Columbia,9
+June2020,District of Columbia,8.8
+July2020,District of Columbia,9
+August2020,District of Columbia,8.8
+September2020,District of Columbia,8.7
+October2020,District of Columbia,8.2
+November2020,District of Columbia,7.8
+December2020,District of Columbia,7.5
+January2021,District of Columbia,6.9
+February2021,District of Columbia,6.7
+March2021,District of Columbia,6.6
+April2021,District of Columbia,6.8
+May2021,District of Columbia,6.9
+June2021,District of Columbia,7.2
+July2021,District of Columbia,7.1
+August2021,District of Columbia,6.9
+September2021,District of Columbia,6.5
+October2021,District of Columbia,6.3
+November2021,District of Columbia,6.1
+December2021,District of Columbia,6.1
+January2022,District of Columbia,6.3
+February2022,District of Columbia,6.1
+March2022,District of Columbia,6
+April2022,District of Columbia,5.8
+May2022,District of Columbia,5.7
+June2022,District of Columbia,5.5
+July2022,District of Columbia,5.2
+August2022,District of Columbia,5.1
+September2022,District of Columbia,4.7
+October2019,Florida,3
+November2019,Florida,2.9
+December2019,Florida,2.9
+January2020,Florida,2.8
+February2020,Florida,2.7
+March2020,Florida,4.5
+April2020,Florida,13.2
+May2020,Florida,13.9
+June2020,Florida,11.6
+July2020,Florida,12.5
+August2020,Florida,8.9
+September2020,Florida,8.7
+October2020,Florida,7.2
+November2020,Florida,6.7
+December2020,Florida,6.5
+January2021,Florida,6
+February2021,Florida,5.6
+March2021,Florida,5.4
+April2021,Florida,5.1
+May2021,Florida,4.9
+June2021,Florida,4.8
+July2021,Florida,4.5
+August2021,Florida,4.3
+September2021,Florida,3.9
+October2021,Florida,3.7
+November2021,Florida,3.5
+December2021,Florida,3.5
+January2022,Florida,3.5
+February2022,Florida,3.3
+March2022,Florida,3.2
+April2022,Florida,3
+May2022,Florida,2.9
+June2022,Florida,2.8
+July2022,Florida,2.7
+August2022,Florida,2.7
+September2022,Florida,2.5
+October2019,Georgia,3.5
+November2019,Georgia,3.4
+December2019,Georgia,3.5
+January2020,Georgia,3.5
+February2020,Georgia,3.6
+March2020,Georgia,3.7
+April2020,Georgia,12.3
+May2020,Georgia,9.6
+June2020,Georgia,8.4
+July2020,Georgia,7.7
+August2020,Georgia,6.9
+September2020,Georgia,6.4
+October2020,Georgia,5.6
+November2020,Georgia,5.3
+December2020,Georgia,5.1
+January2021,Georgia,4.8
+February2021,Georgia,4.6
+March2021,Georgia,4.4
+April2021,Georgia,4.3
+May2021,Georgia,4.1
+June2021,Georgia,4
+July2021,Georgia,3.9
+August2021,Georgia,3.7
+September2021,Georgia,3.5
+October2021,Georgia,3.4
+November2021,Georgia,3.3
+December2021,Georgia,3.3
+January2022,Georgia,3.2
+February2022,Georgia,3.2
+March2022,Georgia,3.1
+April2022,Georgia,3.1
+May2022,Georgia,3
+June2022,Georgia,2.9
+July2022,Georgia,2.8
+August2022,Georgia,2.8
+September2022,Georgia,2.8
+October2019,Hawaii,1.9
+November2019,Hawaii,1.9
+December2019,Hawaii,2
+January2020,Hawaii,2.1
+February2020,Hawaii,2.2
+March2020,Hawaii,2.2
+April2020,Hawaii,22.4
+May2020,Hawaii,20.9
+June2020,Hawaii,17.7
+July2020,Hawaii,16.2
+August2020,Hawaii,13.9
+September2020,Hawaii,14.2
+October2020,Hawaii,12.1
+November2020,Hawaii,10.8
+December2020,Hawaii,9.8
+January2021,Hawaii,8.3
+February2021,Hawaii,7.3
+March2021,Hawaii,6.6
+April2021,Hawaii,6.3
+May2021,Hawaii,5.9
+June2021,Hawaii,5.9
+July2021,Hawaii,5.5
+August2021,Hawaii,5.3
+September2021,Hawaii,4.8
+October2021,Hawaii,4.7
+November2021,Hawaii,4.4
+December2021,Hawaii,4.3
+January2022,Hawaii,4.3
+February2022,Hawaii,4.2
+March2022,Hawaii,4.1
+April2022,Hawaii,4.1
+May2022,Hawaii,4.1
+June2022,Hawaii,4.2
+July2022,Hawaii,4
+August2022,Hawaii,4
+September2022,Hawaii,3.5
+October2019,Idaho,3
+November2019,Idaho,3
+December2019,Idaho,3
+January2020,Idaho,3
+February2020,Idaho,3
+March2020,Idaho,2.8
+April2020,Idaho,11.8
+May2020,Idaho,8.9
+June2020,Idaho,7.3
+July2020,Idaho,6.3
+August2020,Idaho,5.3
+September2020,Idaho,4.8
+October2020,Idaho,4.3
+November2020,Idaho,4.2
+December2020,Idaho,4.2
+January2021,Idaho,4
+February2021,Idaho,4
+March2021,Idaho,3.9
+April2021,Idaho,3.8
+May2021,Idaho,3.7
+June2021,Idaho,3.7
+July2021,Idaho,3.6
+August2021,Idaho,3.5
+September2021,Idaho,3.4
+October2021,Idaho,3.2
+November2021,Idaho,3.2
+December2021,Idaho,3.1
+January2022,Idaho,3
+February2022,Idaho,2.8
+March2022,Idaho,2.7
+April2022,Idaho,2.6
+May2022,Idaho,2.5
+June2022,Idaho,2.5
+July2022,Idaho,2.6
+August2022,Idaho,2.7
+September2022,Idaho,2.8
+October2019,Illinois,3.7
+November2019,Illinois,3.6
+December2019,Illinois,3.6
+January2020,Illinois,3.7
+February2020,Illinois,3.8
+March2020,Illinois,4.9
+April2020,Illinois,17.4
+May2020,Illinois,14.5
+June2020,Illinois,12.7
+July2020,Illinois,11.5
+August2020,Illinois,9.8
+September2020,Illinois,9
+October2020,Illinois,8.1
+November2020,Illinois,7.7
+December2020,Illinois,7.5
+January2021,Illinois,7.1
+February2021,Illinois,6.9
+March2021,Illinois,6.7
+April2021,Illinois,6.6
+May2021,Illinois,6.5
+June2021,Illinois,6.5
+July2021,Illinois,6.2
+August2021,Illinois,6
+September2021,Illinois,5.5
+October2021,Illinois,5.3
+November2021,Illinois,5.1
+December2021,Illinois,5.1
+January2022,Illinois,5
+February2022,Illinois,4.8
+March2022,Illinois,4.7
+April2022,Illinois,4.6
+May2022,Illinois,4.6
+June2022,Illinois,4.5
+July2022,Illinois,4.4
+August2022,Illinois,4.5
+September2022,Illinois,4.5
+October2019,Indiana,3.3
+November2019,Indiana,3.3
+December2019,Indiana,3.3
+January2020,Indiana,3.4
+February2020,Indiana,3.4
+March2020,Indiana,3.5
+April2020,Indiana,16.8
+May2020,Indiana,12.3
+June2020,Indiana,10.2
+July2020,Indiana,8.8
+August2020,Indiana,7.2
+September2020,Indiana,6.3
+October2020,Indiana,5.5
+November2020,Indiana,5.1
+December2020,Indiana,4.8
+January2021,Indiana,4.5
+February2021,Indiana,4.3
+March2021,Indiana,4.2
+April2021,Indiana,4.1
+May2021,Indiana,4
+June2021,Indiana,3.9
+July2021,Indiana,3.7
+August2021,Indiana,3.4
+September2021,Indiana,3.1
+October2021,Indiana,2.8
+November2021,Indiana,2.7
+December2021,Indiana,2.7
+January2022,Indiana,2.4
+February2022,Indiana,2.3
+March2022,Indiana,2.2
+April2022,Indiana,2.2
+May2022,Indiana,2.2
+June2022,Indiana,2.4
+July2022,Indiana,2.6
+August2022,Indiana,2.8
+September2022,Indiana,2.8
+October2019,Iowa,2.7
+November2019,Iowa,2.7
+December2019,Iowa,2.6
+January2020,Iowa,2.6
+February2020,Iowa,2.6
+March2020,Iowa,2.6
+April2020,Iowa,10.5
+May2020,Iowa,8
+June2020,Iowa,6.5
+July2020,Iowa,5.8
+August2020,Iowa,5.1
+September2020,Iowa,4.8
+October2020,Iowa,4.5
+November2020,Iowa,4.5
+December2020,Iowa,4.5
+January2021,Iowa,4.4
+February2021,Iowa,4.4
+March2021,Iowa,4.4
+April2021,Iowa,4.5
+May2021,Iowa,4.5
+June2021,Iowa,4.5
+July2021,Iowa,4.4
+August2021,Iowa,4.3
+September2021,Iowa,4.1
+October2021,Iowa,4
+November2021,Iowa,3.9
+December2021,Iowa,3.9
+January2022,Iowa,3.7
+February2022,Iowa,3.5
+March2022,Iowa,3.3
+April2022,Iowa,3
+May2022,Iowa,2.7
+June2022,Iowa,2.6
+July2022,Iowa,2.5
+August2022,Iowa,2.6
+September2022,Iowa,2.7
+October2019,Kansas,3.1
+November2019,Kansas,3.1
+December2019,Kansas,3.1
+January2020,Kansas,3.1
+February2020,Kansas,3.1
+March2020,Kansas,3.1
+April2020,Kansas,12.2
+May2020,Kansas,9
+June2020,Kansas,7.2
+July2020,Kansas,6.4
+August2020,Kansas,5.6
+September2020,Kansas,5.2
+October2020,Kansas,4.7
+November2020,Kansas,4.4
+December2020,Kansas,4.2
+January2021,Kansas,3.8
+February2021,Kansas,3.6
+March2021,Kansas,3.5
+April2021,Kansas,3.5
+May2021,Kansas,3.4
+June2021,Kansas,3.5
+July2021,Kansas,3.4
+August2021,Kansas,3.2
+September2021,Kansas,3
+October2021,Kansas,2.9
+November2021,Kansas,2.8
+December2021,Kansas,2.8
+January2022,Kansas,2.6
+February2022,Kansas,2.5
+March2022,Kansas,2.4
+April2022,Kansas,2.4
+May2022,Kansas,2.3
+June2022,Kansas,2.4
+July2022,Kansas,2.4
+August2022,Kansas,2.5
+September2022,Kansas,2.6
+October2019,Kentucky,4
+November2019,Kentucky,4
+December2019,Kentucky,4
+January2020,Kentucky,4
+February2020,Kentucky,4.1
+March2020,Kentucky,4.1
+April2020,Kentucky,16.5
+May2020,Kentucky,12.6
+June2020,Kentucky,5.1
+July2020,Kentucky,5.7
+August2020,Kentucky,5.2
+September2020,Kentucky,5.1
+October2020,Kentucky,4.9
+November2020,Kentucky,4.9
+December2020,Kentucky,4.9
+January2021,Kentucky,4.8
+February2021,Kentucky,4.7
+March2021,Kentucky,4.7
+April2021,Kentucky,4.7
+May2021,Kentucky,4.7
+June2021,Kentucky,4.8
+July2021,Kentucky,4.8
+August2021,Kentucky,4.8
+September2021,Kentucky,4.7
+October2021,Kentucky,4.6
+November2021,Kentucky,4.6
+December2021,Kentucky,4.6
+January2022,Kentucky,4.4
+February2022,Kentucky,4.2
+March2022,Kentucky,4
+April2022,Kentucky,3.9
+May2022,Kentucky,3.8
+June2022,Kentucky,3.7
+July2022,Kentucky,3.7
+August2022,Kentucky,3.8
+September2022,Kentucky,3.8
+October2019,Louisiana,4.8
+November2019,Louisiana,4.9
+December2019,Louisiana,5.1
+January2020,Louisiana,5.2
+February2020,Louisiana,5.2
+March2020,Louisiana,6.8
+April2020,Louisiana,13.5
+May2020,Louisiana,12.3
+June2020,Louisiana,11
+July2020,Louisiana,10.5
+August2020,Louisiana,9.4
+September2020,Louisiana,8.9
+October2020,Louisiana,8
+November2020,Louisiana,7.4
+December2020,Louisiana,7
+January2021,Louisiana,6.5
+February2021,Louisiana,6.3
+March2021,Louisiana,6.1
+April2021,Louisiana,6.1
+May2021,Louisiana,5.9
+June2021,Louisiana,5.8
+July2021,Louisiana,5.5
+August2021,Louisiana,5.2
+September2021,Louisiana,4.8
+October2021,Louisiana,4.6
+November2021,Louisiana,4.5
+December2021,Louisiana,4.4
+January2022,Louisiana,4.3
+February2022,Louisiana,4.3
+March2022,Louisiana,4.2
+April2022,Louisiana,4.1
+May2022,Louisiana,4
+June2022,Louisiana,3.8
+July2022,Louisiana,3.7
+August2022,Louisiana,3.5
+September2022,Louisiana,3.4
+October2019,Maine,2.9
+November2019,Maine,2.9
+December2019,Maine,2.9
+January2020,Maine,2.9
+February2020,Maine,2.8
+March2020,Maine,2.7
+April2020,Maine,9.1
+May2020,Maine,9.2
+June2020,Maine,6.6
+July2020,Maine,6.3
+August2020,Maine,4.6
+September2020,Maine,4.4
+October2020,Maine,4.1
+November2020,Maine,4.1
+December2020,Maine,4.4
+January2021,Maine,4.4
+February2021,Maine,4.6
+March2021,Maine,4.8
+April2021,Maine,5
+May2021,Maine,4.9
+June2021,Maine,5
+July2021,Maine,4.9
+August2021,Maine,4.8
+September2021,Maine,4.5
+October2021,Maine,4.4
+November2021,Maine,4.2
+December2021,Maine,4.1
+January2022,Maine,4.1
+February2022,Maine,4
+March2022,Maine,3.6
+April2022,Maine,3.3
+May2022,Maine,3.2
+June2022,Maine,3
+July2022,Maine,2.8
+August2022,Maine,3.1
+September2022,Maine,3.3
+October2019,Maryland,3.7
+November2019,Maryland,3.7
+December2019,Maryland,3.8
+January2020,Maryland,4
+February2020,Maryland,4.2
+March2020,Maryland,4.2
+April2020,Maryland,9.5
+May2020,Maryland,9.5
+June2020,Maryland,8.6
+July2020,Maryland,8.1
+August2020,Maryland,7.2
+September2020,Maryland,6.8
+October2020,Maryland,6.2
+November2020,Maryland,6.1
+December2020,Maryland,6.3
+January2021,Maryland,5.9
+February2021,Maryland,5.7
+March2021,Maryland,5.7
+April2021,Maryland,5.7
+May2021,Maryland,5.7
+June2021,Maryland,6.1
+July2021,Maryland,6.1
+August2021,Maryland,6.2
+September2021,Maryland,5.8
+October2021,Maryland,5.7
+November2021,Maryland,5.4
+December2021,Maryland,5.4
+January2022,Maryland,5.4
+February2022,Maryland,5
+March2022,Maryland,4.6
+April2022,Maryland,4.2
+May2022,Maryland,4
+June2022,Maryland,4
+July2022,Maryland,3.9
+August2022,Maryland,4.3
+September2022,Maryland,4
+October2019,Massachusetts,3
+November2019,Massachusetts,3
+December2019,Massachusetts,3
+January2020,Massachusetts,3
+February2020,Massachusetts,2.9
+March2020,Massachusetts,2.9
+April2020,Massachusetts,17.1
+May2020,Massachusetts,15.5
+June2020,Massachusetts,14.4
+July2020,Massachusetts,12.7
+August2020,Massachusetts,10.6
+September2020,Massachusetts,9.9
+October2020,Massachusetts,8.6
+November2020,Massachusetts,8.1
+December2020,Massachusetts,7.7
+January2021,Massachusetts,7.1
+February2021,Massachusetts,6.7
+March2021,Massachusetts,6.4
+April2021,Massachusetts,6.3
+May2021,Massachusetts,5.9
+June2021,Massachusetts,6
+July2021,Massachusetts,5.7
+August2021,Massachusetts,5.5
+September2021,Massachusetts,5.1
+October2021,Massachusetts,5
+November2021,Massachusetts,4.8
+December2021,Massachusetts,4.6
+January2022,Massachusetts,4.8
+February2022,Massachusetts,4.7
+March2022,Massachusetts,4.3
+April2022,Massachusetts,4.1
+May2022,Massachusetts,3.9
+June2022,Massachusetts,3.7
+July2022,Massachusetts,3.5
+August2022,Massachusetts,3.6
+September2022,Massachusetts,3.4
+October2019,Michigan,4
+November2019,Michigan,3.9
+December2019,Michigan,3.8
+January2020,Michigan,3.8
+February2020,Michigan,3.8
+March2020,Michigan,3.8
+April2020,Michigan,22.7
+May2020,Michigan,19.2
+June2020,Michigan,14.6
+July2020,Michigan,12.6
+August2020,Michigan,9.9
+September2020,Michigan,8.7
+October2020,Michigan,7.5
+November2020,Michigan,7.1
+December2020,Michigan,7
+January2021,Michigan,6.4
+February2021,Michigan,6.3
+March2021,Michigan,6.2
+April2021,Michigan,6.2
+May2021,Michigan,6.2
+June2021,Michigan,6.3
+July2021,Michigan,6.2
+August2021,Michigan,6
+September2021,Michigan,5.7
+October2021,Michigan,5.4
+November2021,Michigan,5.2
+December2021,Michigan,5.1
+January2022,Michigan,4.9
+February2022,Michigan,4.7
+March2022,Michigan,4.4
+April2022,Michigan,4.3
+May2022,Michigan,4.3
+June2022,Michigan,4.3
+July2022,Michigan,4.2
+August2022,Michigan,4.1
+September2022,Michigan,4.1
+October2019,Minnesota,3.6
+November2019,Minnesota,3.6
+December2019,Minnesota,3.7
+January2020,Minnesota,3.8
+February2020,Minnesota,3.9
+March2020,Minnesota,4
+April2020,Minnesota,9
+May2020,Minnesota,10.8
+June2020,Minnesota,8.7
+July2020,Minnesota,7.9
+August2020,Minnesota,6.9
+September2020,Minnesota,6.2
+October2020,Minnesota,5.5
+November2020,Minnesota,5
+December2020,Minnesota,4.6
+January2021,Minnesota,4.2
+February2021,Minnesota,3.9
+March2021,Minnesota,3.7
+April2021,Minnesota,3.5
+May2021,Minnesota,3.4
+June2021,Minnesota,3.4
+July2021,Minnesota,3.3
+August2021,Minnesota,3.3
+September2021,Minnesota,3.2
+October2021,Minnesota,3.1
+November2021,Minnesota,3.1
+December2021,Minnesota,3
+January2022,Minnesota,2.9
+February2022,Minnesota,2.7
+March2022,Minnesota,2.5
+April2022,Minnesota,2.2
+May2022,Minnesota,2
+June2022,Minnesota,1.8
+July2022,Minnesota,1.8
+August2022,Minnesota,1.9
+September2022,Minnesota,2
+October2019,Mississippi,5.5
+November2019,Mississippi,5.5
+December2019,Mississippi,5.5
+January2020,Mississippi,5.5
+February2020,Mississippi,5.7
+March2020,Mississippi,5.8
+April2020,Mississippi,15.4
+May2020,Mississippi,11
+June2020,Mississippi,9.2
+July2020,Mississippi,8.2
+August2020,Mississippi,7.4
+September2020,Mississippi,7.1
+October2020,Mississippi,6.8
+November2020,Mississippi,6.8
+December2020,Mississippi,6.7
+January2021,Mississippi,6.6
+February2021,Mississippi,6.5
+March2021,Mississippi,6.4
+April2021,Mississippi,6.2
+May2021,Mississippi,6
+June2021,Mississippi,5.8
+July2021,Mississippi,5.6
+August2021,Mississippi,5.3
+September2021,Mississippi,5
+October2021,Mississippi,4.7
+November2021,Mississippi,4.7
+December2021,Mississippi,4.7
+January2022,Mississippi,4.6
+February2022,Mississippi,4.5
+March2022,Mississippi,4.2
+April2022,Mississippi,4.1
+May2022,Mississippi,3.9
+June2022,Mississippi,3.8
+July2022,Mississippi,3.6
+August2022,Mississippi,3.6
+September2022,Mississippi,3.6
+October2019,Missouri,3.2
+November2019,Missouri,3.3
+December2019,Missouri,3.3
+January2020,Missouri,3.3
+February2020,Missouri,3.3
+March2020,Missouri,3.5
+April2020,Missouri,11.2
+May2020,Missouri,9.2
+June2020,Missouri,7.7
+July2020,Missouri,7
+August2020,Missouri,6.4
+September2020,Missouri,6
+October2020,Missouri,5.5
+November2020,Missouri,5.3
+December2020,Missouri,5.1
+January2021,Missouri,5
+February2021,Missouri,4.9
+March2021,Missouri,4.8
+April2021,Missouri,4.7
+May2021,Missouri,4.5
+June2021,Missouri,4.4
+July2021,Missouri,4.3
+August2021,Missouri,4.1
+September2021,Missouri,4
+October2021,Missouri,4
+November2021,Missouri,3.9
+December2021,Missouri,3.9
+January2022,Missouri,3.8
+February2022,Missouri,3.7
+March2022,Missouri,3.6
+April2022,Missouri,3.4
+May2022,Missouri,3.1
+June2022,Missouri,2.8
+July2022,Missouri,2.5
+August2022,Missouri,2.5
+September2022,Missouri,2.4
+October2019,Montana,3.6
+November2019,Montana,3.7
+December2019,Montana,3.7
+January2020,Montana,3.7
+February2020,Montana,3.7
+March2020,Montana,3.6
+April2020,Montana,12.2
+May2020,Montana,9.1
+June2020,Montana,7.4
+July2020,Montana,6.5
+August2020,Montana,5.4
+September2020,Montana,5
+October2020,Montana,4.5
+November2020,Montana,4.2
+December2020,Montana,4
+January2021,Montana,3.8
+February2021,Montana,3.7
+March2021,Montana,3.6
+April2021,Montana,3.6
+May2021,Montana,3.6
+June2021,Montana,3.6
+July2021,Montana,3.5
+August2021,Montana,3.4
+September2021,Montana,3.2
+October2021,Montana,3
+November2021,Montana,2.9
+December2021,Montana,2.9
+January2022,Montana,2.7
+February2022,Montana,2.6
+March2022,Montana,2.3
+April2022,Montana,2.3
+May2022,Montana,2.4
+June2022,Montana,2.6
+July2022,Montana,2.7
+August2022,Montana,2.8
+September2022,Montana,2.9
+October2019,Nebraska,3.2
+November2019,Nebraska,3.1
+December2019,Nebraska,3.1
+January2020,Nebraska,3
+February2020,Nebraska,3
+March2020,Nebraska,4.3
+April2020,Nebraska,8.2
+May2020,Nebraska,6.3
+June2020,Nebraska,5.1
+July2020,Nebraska,4.4
+August2020,Nebraska,3.7
+September2020,Nebraska,3.3
+October2020,Nebraska,2.9
+November2020,Nebraska,2.8
+December2020,Nebraska,2.8
+January2021,Nebraska,2.7
+February2021,Nebraska,2.7
+March2021,Nebraska,2.6
+April2021,Nebraska,2.6
+May2021,Nebraska,2.5
+June2021,Nebraska,2.5
+July2021,Nebraska,2.5
+August2021,Nebraska,2.5
+September2021,Nebraska,2.5
+October2021,Nebraska,2.4
+November2021,Nebraska,2.4
+December2021,Nebraska,2.3
+January2022,Nebraska,2.2
+February2022,Nebraska,2.1
+March2022,Nebraska,2
+April2022,Nebraska,1.9
+May2022,Nebraska,1.9
+June2022,Nebraska,1.9
+July2022,Nebraska,2
+August2022,Nebraska,2.1
+September2022,Nebraska,2.2
+October2019,Nevada,3.9
+November2019,Nevada,3.9
+December2019,Nevada,3.8
+January2020,Nevada,3.8
+February2020,Nevada,4
+March2020,Nevada,8
+April2020,Nevada,28.5
+May2020,Nevada,23.4
+June2020,Nevada,18.5
+July2020,Nevada,16.8
+August2020,Nevada,14.7
+September2020,Nevada,13.6
+October2020,Nevada,12.1
+November2020,Nevada,11.2
+December2020,Nevada,10.8
+January2021,Nevada,10.2
+February2021,Nevada,9.8
+March2021,Nevada,9.2
+April2021,Nevada,8.6
+May2021,Nevada,7.8
+June2021,Nevada,7.2
+July2021,Nevada,6.6
+August2021,Nevada,6
+September2021,Nevada,5.6
+October2021,Nevada,5.4
+November2021,Nevada,5.3
+December2021,Nevada,5.3
+January2022,Nevada,5.2
+February2022,Nevada,5.1
+March2022,Nevada,5
+April2022,Nevada,5
+May2022,Nevada,4.9
+June2022,Nevada,4.7
+July2022,Nevada,4.4
+August2022,Nevada,4.4
+September2022,Nevada,4.4
+October2019,New Hampshire,2.7
+November2019,New Hampshire,2.7
+December2019,New Hampshire,2.7
+January2020,New Hampshire,2.7
+February2020,New Hampshire,2.7
+March2020,New Hampshire,2.6
+April2020,New Hampshire,16.2
+May2020,New Hampshire,11.8
+June2020,New Hampshire,9.7
+July2020,New Hampshire,8.3
+August2020,New Hampshire,6.8
+September2020,New Hampshire,6.1
+October2020,New Hampshire,5.2
+November2020,New Hampshire,4.8
+December2020,New Hampshire,4.5
+January2021,New Hampshire,4.2
+February2021,New Hampshire,4
+March2021,New Hampshire,3.9
+April2021,New Hampshire,3.8
+May2021,New Hampshire,3.7
+June2021,New Hampshire,3.6
+July2021,New Hampshire,3.5
+August2021,New Hampshire,3.4
+September2021,New Hampshire,3.2
+October2021,New Hampshire,3.1
+November2021,New Hampshire,3
+December2021,New Hampshire,3
+January2022,New Hampshire,2.9
+February2022,New Hampshire,2.7
+March2022,New Hampshire,2.4
+April2022,New Hampshire,2.3
+May2022,New Hampshire,2.1
+June2022,New Hampshire,2
+July2022,New Hampshire,2
+August2022,New Hampshire,2
+September2022,New Hampshire,2.2
+October2019,New Jersey,3.5
+November2019,New Jersey,3.6
+December2019,New Jersey,3.6
+January2020,New Jersey,3.5
+February2020,New Jersey,3.5
+March2020,New Jersey,3.3
+April2020,New Jersey,15.5
+May2020,New Jersey,15.8
+June2020,New Jersey,14.5
+July2020,New Jersey,14.3
+August2020,New Jersey,12.8
+September2020,New Jersey,8.3
+October2020,New Jersey,7.5
+November2020,New Jersey,7.5
+December2020,New Jersey,7.4
+January2021,New Jersey,7.3
+February2021,New Jersey,7.2
+March2021,New Jersey,6.9
+April2021,New Jersey,7
+May2021,New Jersey,6.6
+June2021,New Jersey,7.1
+July2021,New Jersey,6.6
+August2021,New Jersey,6.5
+September2021,New Jersey,5.8
+October2021,New Jersey,5.5
+November2021,New Jersey,5.1
+December2021,New Jersey,5.1
+January2022,New Jersey,5.1
+February2022,New Jersey,4.6
+March2022,New Jersey,4.2
+April2022,New Jersey,4.1
+May2022,New Jersey,3.9
+June2022,New Jersey,3.9
+July2022,New Jersey,3.7
+August2022,New Jersey,4
+September2022,New Jersey,3.3
+October2019,New Mexico,4.8
+November2019,New Mexico,4.9
+December2019,New Mexico,5.1
+January2020,New Mexico,5.2
+February2020,New Mexico,5.4
+March2020,New Mexico,6.1
+April2020,New Mexico,9.5
+May2020,New Mexico,9.8
+June2020,New Mexico,9.5
+July2020,New Mexico,9.6
+August2020,New Mexico,9.3
+September2020,New Mexico,8.8
+October2020,New Mexico,8.4
+November2020,New Mexico,8
+December2020,New Mexico,7.9
+January2021,New Mexico,7.4
+February2021,New Mexico,7.3
+March2021,New Mexico,7.2
+April2021,New Mexico,7.3
+May2021,New Mexico,7.2
+June2021,New Mexico,7.3
+July2021,New Mexico,7
+August2021,New Mexico,6.8
+September2021,New Mexico,6.2
+October2021,New Mexico,6.1
+November2021,New Mexico,6
+December2021,New Mexico,5.9
+January2022,New Mexico,5.9
+February2022,New Mexico,5.6
+March2022,New Mexico,5.3
+April2022,New Mexico,5.3
+May2022,New Mexico,5.1
+June2022,New Mexico,4.9
+July2022,New Mexico,4.5
+August2022,New Mexico,4.4
+September2022,New Mexico,4.2
+October2019,New York,3.9
+November2019,New York,3.9
+December2019,New York,3.9
+January2020,New York,3.9
+February2020,New York,3.9
+March2020,New York,3.9
+April2020,New York,16.2
+May2020,New York,16.5
+June2020,New York,13.7
+July2020,New York,12.7
+August2020,New York,11
+September2020,New York,10.3
+October2020,New York,9.3
+November2020,New York,9.1
+December2020,New York,8.8
+January2021,New York,8.6
+February2021,New York,8.4
+March2021,New York,7.9
+April2021,New York,7.8
+May2021,New York,7.4
+June2021,New York,7.4
+July2021,New York,6.9
+August2021,New York,6.6
+September2021,New York,6
+October2021,New York,5.7
+November2021,New York,5.4
+December2021,New York,5.4
+January2022,New York,5.3
+February2022,New York,4.9
+March2022,New York,4.6
+April2022,New York,4.5
+May2022,New York,4.4
+June2022,New York,4.4
+July2022,New York,4.3
+August2022,New York,4.7
+September2022,New York,4.3
+October2019,North Carolina,3.9
+November2019,North Carolina,3.8
+December2019,North Carolina,3.8
+January2020,North Carolina,3.7
+February2020,North Carolina,3.7
+March2020,North Carolina,3.9
+April2020,North Carolina,14.2
+May2020,North Carolina,11.5
+June2020,North Carolina,9.6
+July2020,North Carolina,8.6
+August2020,North Carolina,7.2
+September2020,North Carolina,6.5
+October2020,North Carolina,5.8
+November2020,North Carolina,5.6
+December2020,North Carolina,5.6
+January2021,North Carolina,5.5
+February2021,North Carolina,5.4
+March2021,North Carolina,5.2
+April2021,North Carolina,5.1
+May2021,North Carolina,5
+June2021,North Carolina,5
+July2021,North Carolina,4.9
+August2021,North Carolina,4.8
+September2021,North Carolina,4.5
+October2021,North Carolina,4.4
+November2021,North Carolina,4.2
+December2021,North Carolina,4.1
+January2022,North Carolina,3.9
+February2022,North Carolina,3.7
+March2022,North Carolina,3.5
+April2022,North Carolina,3.4
+May2022,North Carolina,3.4
+June2022,North Carolina,3.4
+July2022,North Carolina,3.4
+August2022,North Carolina,3.5
+September2022,North Carolina,3.6
+October2019,North Dakota,2.1
+November2019,North Dakota,2
+December2019,North Dakota,2
+January2020,North Dakota,2.1
+February2020,North Dakota,2.2
+March2020,North Dakota,2.5
+April2020,North Dakota,8.3
+May2020,North Dakota,7
+June2020,North Dakota,6.4
+July2020,North Dakota,6.2
+August2020,North Dakota,5.8
+September2020,North Dakota,5.6
+October2020,North Dakota,5.3
+November2020,North Dakota,5.1
+December2020,North Dakota,5
+January2021,North Dakota,4.7
+February2021,North Dakota,4.5
+March2021,North Dakota,4.3
+April2021,North Dakota,4
+May2021,North Dakota,3.8
+June2021,North Dakota,3.6
+July2021,North Dakota,3.4
+August2021,North Dakota,3.3
+September2021,North Dakota,3.2
+October2021,North Dakota,3.2
+November2021,North Dakota,3.1
+December2021,North Dakota,3.1
+January2022,North Dakota,3.1
+February2022,North Dakota,2.9
+March2022,North Dakota,2.9
+April2022,North Dakota,2.8
+May2022,North Dakota,2.6
+June2022,North Dakota,2.5
+July2022,North Dakota,2.3
+August2022,North Dakota,2.3
+September2022,North Dakota,2.2
+October2019,Ohio,4.3
+November2019,Ohio,4.3
+December2019,Ohio,4.4
+January2020,Ohio,4.5
+February2020,Ohio,4.6
+March2020,Ohio,4.8
+April2020,Ohio,16.4
+May2020,Ohio,12.7
+June2020,Ohio,11
+July2020,Ohio,9.9
+August2020,Ohio,8.4
+September2020,Ohio,7.6
+October2020,Ohio,6.8
+November2020,Ohio,6.5
+December2020,Ohio,6.2
+January2021,Ohio,6
+February2021,Ohio,5.8
+March2021,Ohio,5.7
+April2021,Ohio,5.6
+May2021,Ohio,5.4
+June2021,Ohio,5.3
+July2021,Ohio,5.1
+August2021,Ohio,4.9
+September2021,Ohio,4.7
+October2021,Ohio,4.5
+November2021,Ohio,4.5
+December2021,Ohio,4.5
+January2022,Ohio,4.3
+February2022,Ohio,4.2
+March2022,Ohio,4.1
+April2022,Ohio,4
+May2022,Ohio,3.9
+June2022,Ohio,3.9
+July2022,Ohio,3.9
+August2022,Ohio,4
+September2022,Ohio,4
+October2019,Oklahoma,3.2
+November2019,Oklahoma,3.1
+December2019,Oklahoma,3.1
+January2020,Oklahoma,3.1
+February2020,Oklahoma,3.2
+March2020,Oklahoma,3.2
+April2020,Oklahoma,12.6
+May2020,Oklahoma,9.7
+June2020,Oklahoma,8
+July2020,Oklahoma,7.2
+August2020,Oklahoma,6.2
+September2020,Oklahoma,5.8
+October2020,Oklahoma,5.4
+November2020,Oklahoma,5.3
+December2020,Oklahoma,5.2
+January2021,Oklahoma,5
+February2021,Oklahoma,4.8
+March2021,Oklahoma,4.7
+April2021,Oklahoma,4.5
+May2021,Oklahoma,4.4
+June2021,Oklahoma,4.2
+July2021,Oklahoma,3.9
+August2021,Oklahoma,3.5
+September2021,Oklahoma,3.2
+October2021,Oklahoma,2.9
+November2021,Oklahoma,2.8
+December2021,Oklahoma,2.8
+January2022,Oklahoma,2.7
+February2022,Oklahoma,2.6
+March2022,Oklahoma,2.7
+April2022,Oklahoma,2.7
+May2022,Oklahoma,2.8
+June2022,Oklahoma,2.9
+July2022,Oklahoma,2.9
+August2022,Oklahoma,3.1
+September2022,Oklahoma,3.2
+October2019,Oregon,3.5
+November2019,Oregon,3.4
+December2019,Oregon,3.4
+January2020,Oregon,3.4
+February2020,Oregon,3.4
+March2020,Oregon,3.5
+April2020,Oregon,13.3
+May2020,Oregon,12.2
+June2020,Oregon,10.5
+July2020,Oregon,9.5
+August2020,Oregon,8.1
+September2020,Oregon,7.5
+October2020,Oregon,6.8
+November2020,Oregon,6.6
+December2020,Oregon,6.6
+January2021,Oregon,6.4
+February2021,Oregon,6.2
+March2021,Oregon,6.1
+April2021,Oregon,5.9
+May2021,Oregon,5.6
+June2021,Oregon,5.4
+July2021,Oregon,5.1
+August2021,Oregon,4.9
+September2021,Oregon,4.5
+October2021,Oregon,4.4
+November2021,Oregon,4.2
+December2021,Oregon,4.2
+January2022,Oregon,4.2
+February2022,Oregon,4
+March2022,Oregon,3.8
+April2022,Oregon,3.7
+May2022,Oregon,3.5
+June2022,Oregon,3.5
+July2022,Oregon,3.5
+August2022,Oregon,3.7
+September2022,Oregon,3.8
+October2019,Pennsylvania,4.6
+November2019,Pennsylvania,4.6
+December2019,Pennsylvania,4.7
+January2020,Pennsylvania,4.8
+February2020,Pennsylvania,5
+March2020,Pennsylvania,5.2
+April2020,Pennsylvania,16.5
+May2020,Pennsylvania,13.1
+June2020,Pennsylvania,11.5
+July2020,Pennsylvania,10.6
+August2020,Pennsylvania,9.5
+September2020,Pennsylvania,8.9
+October2020,Pennsylvania,8.3
+November2020,Pennsylvania,8
+December2020,Pennsylvania,7.7
+January2021,Pennsylvania,7.5
+February2021,Pennsylvania,7.3
+March2021,Pennsylvania,7.1
+April2021,Pennsylvania,6.9
+May2021,Pennsylvania,6.7
+June2021,Pennsylvania,6.6
+July2021,Pennsylvania,6.4
+August2021,Pennsylvania,6.1
+September2021,Pennsylvania,5.8
+October2021,Pennsylvania,5.6
+November2021,Pennsylvania,5.5
+December2021,Pennsylvania,5.5
+January2022,Pennsylvania,5.4
+February2022,Pennsylvania,5.1
+March2022,Pennsylvania,4.9
+April2022,Pennsylvania,4.8
+May2022,Pennsylvania,4.6
+June2022,Pennsylvania,4.5
+July2022,Pennsylvania,4.3
+August2022,Pennsylvania,4.2
+September2022,Pennsylvania,4.1
+October2019,Rhode Island,3.6
+November2019,Rhode Island,3.5
+December2019,Rhode Island,3.6
+January2020,Rhode Island,3.6
+February2020,Rhode Island,3.7
+March2020,Rhode Island,3.6
+April2020,Rhode Island,18.4
+May2020,Rhode Island,15.6
+June2020,Rhode Island,13.5
+July2020,Rhode Island,12.2
+August2020,Rhode Island,10.2
+September2020,Rhode Island,9.6
+October2020,Rhode Island,6.9
+November2020,Rhode Island,6.8
+December2020,Rhode Island,6.7
+January2021,Rhode Island,6.3
+February2021,Rhode Island,6.1
+March2021,Rhode Island,6
+April2021,Rhode Island,6.1
+May2021,Rhode Island,6
+June2021,Rhode Island,6.2
+July2021,Rhode Island,6
+August2021,Rhode Island,5.8
+September2021,Rhode Island,5.4
+October2021,Rhode Island,5
+November2021,Rhode Island,4.7
+December2021,Rhode Island,4.5
+January2022,Rhode Island,4.2
+February2022,Rhode Island,3.9
+March2022,Rhode Island,3.4
+April2022,Rhode Island,3.2
+May2022,Rhode Island,2.9
+June2022,Rhode Island,2.7
+July2022,Rhode Island,2.7
+August2022,Rhode Island,2.8
+September2022,Rhode Island,3.1
+October2019,South Carolina,2.5
+November2019,South Carolina,2.5
+December2019,South Carolina,2.6
+January2020,South Carolina,2.8
+February2020,South Carolina,2.9
+March2020,South Carolina,3
+April2020,South Carolina,11.6
+May2020,South Carolina,9.1
+June2020,South Carolina,7.8
+July2020,South Carolina,7.2
+August2020,South Carolina,6.3
+September2020,South Carolina,5.9
+October2020,South Carolina,5.3
+November2020,South Carolina,5.1
+December2020,South Carolina,4.9
+January2021,South Carolina,4.6
+February2021,South Carolina,4.4
+March2021,South Carolina,4.3
+April2021,South Carolina,4.2
+May2021,South Carolina,4.1
+June2021,South Carolina,4.1
+July2021,South Carolina,4
+August2021,South Carolina,3.9
+September2021,South Carolina,3.8
+October2021,South Carolina,3.6
+November2021,South Carolina,3.6
+December2021,South Carolina,3.6
+January2022,South Carolina,3.5
+February2022,South Carolina,3.5
+March2022,South Carolina,3.4
+April2022,South Carolina,3.3
+May2022,South Carolina,3.3
+June2022,South Carolina,3.2
+July2022,South Carolina,3.2
+August2022,South Carolina,3.1
+September2022,South Carolina,3.2
+October2019,South Dakota,2.8
+November2019,South Dakota,2.7
+December2019,South Dakota,2.7
+January2020,South Dakota,2.7
+February2020,South Dakota,2.6
+March2020,South Dakota,2.5
+April2020,South Dakota,8.8
+May2020,South Dakota,6.6
+June2020,South Dakota,5.3
+July2020,South Dakota,4.8
+August2020,South Dakota,4.3
+September2020,South Dakota,4
+October2020,South Dakota,3.7
+November2020,South Dakota,3.6
+December2020,South Dakota,3.5
+January2021,South Dakota,3.3
+February2021,South Dakota,3.2
+March2021,South Dakota,3.2
+April2021,South Dakota,3.2
+May2021,South Dakota,3.2
+June2021,South Dakota,3.2
+July2021,South Dakota,3.2
+August2021,South Dakota,3.2
+September2021,South Dakota,3.1
+October2021,South Dakota,3
+November2021,South Dakota,2.9
+December2021,South Dakota,2.9
+January2022,South Dakota,2.8
+February2022,South Dakota,2.6
+March2022,South Dakota,2.5
+April2022,South Dakota,2.3
+May2022,South Dakota,2.3
+June2022,South Dakota,2.3
+July2022,South Dakota,2.3
+August2022,South Dakota,2.3
+September2022,South Dakota,2.3
+October2019,Tennessee,3.4
+November2019,Tennessee,3.5
+December2019,Tennessee,3.6
+January2020,Tennessee,3.6
+February2020,Tennessee,3.6
+March2020,Tennessee,3.6
+April2020,Tennessee,15.9
+May2020,Tennessee,12.1
+June2020,Tennessee,10.1
+July2020,Tennessee,8.8
+August2020,Tennessee,7.5
+September2020,Tennessee,6.9
+October2020,Tennessee,6.1
+November2020,Tennessee,5.7
+December2020,Tennessee,5.5
+January2021,Tennessee,5.2
+February2021,Tennessee,5
+March2021,Tennessee,4.9
+April2021,Tennessee,4.8
+May2021,Tennessee,4.6
+June2021,Tennessee,4.4
+July2021,Tennessee,4.2
+August2021,Tennessee,4
+September2021,Tennessee,3.8
+October2021,Tennessee,3.7
+November2021,Tennessee,3.6
+December2021,Tennessee,3.6
+January2022,Tennessee,3.5
+February2022,Tennessee,3.4
+March2022,Tennessee,3.2
+April2022,Tennessee,3.2
+May2022,Tennessee,3.3
+June2022,Tennessee,3.3
+July2022,Tennessee,3.3
+August2022,Tennessee,3.4
+September2022,Tennessee,3.4
+October2019,Texas,3.5
+November2019,Texas,3.5
+December2019,Texas,3.5
+January2020,Texas,3.4
+February2020,Texas,3.5
+March2020,Texas,5.1
+April2020,Texas,12.6
+May2020,Texas,11.8
+June2020,Texas,10.1
+July2020,Texas,9.3
+August2020,Texas,8.1
+September2020,Texas,7.7
+October2020,Texas,7.1
+November2020,Texas,6.9
+December2020,Texas,6.9
+January2021,Texas,6.7
+February2021,Texas,6.6
+March2021,Texas,6.4
+April2021,Texas,6.2
+May2021,Texas,5.9
+June2021,Texas,5.9
+July2021,Texas,5.6
+August2021,Texas,5.4
+September2021,Texas,5.1
+October2021,Texas,5
+November2021,Texas,4.9
+December2021,Texas,4.8
+January2022,Texas,4.8
+February2022,Texas,4.7
+March2022,Texas,4.4
+April2022,Texas,4.3
+May2022,Texas,4.2
+June2022,Texas,4.1
+July2022,Texas,4
+August2022,Texas,4.1
+September2022,Texas,4
+October2019,Utah,2.5
+November2019,Utah,2.5
+December2019,Utah,2.5
+January2020,Utah,2.5
+February2020,Utah,2.6
+March2020,Utah,2.5
+April2020,Utah,10
+May2020,Utah,7.6
+June2020,Utah,6.2
+July2020,Utah,5.4
+August2020,Utah,4.6
+September2020,Utah,4.3
+October2020,Utah,3.9
+November2020,Utah,3.7
+December2020,Utah,3.5
+January2021,Utah,3.3
+February2021,Utah,3.1
+March2021,Utah,3
+April2021,Utah,2.9
+May2021,Utah,2.8
+June2021,Utah,2.8
+July2021,Utah,2.7
+August2021,Utah,2.6
+September2021,Utah,2.5
+October2021,Utah,2.3
+November2021,Utah,2.3
+December2021,Utah,2.3
+January2022,Utah,2.2
+February2022,Utah,2.1
+March2022,Utah,2
+April2022,Utah,1.9
+May2022,Utah,2
+June2022,Utah,2
+July2022,Utah,2
+August2022,Utah,2
+September2022,Utah,2.1
+October2019,Vermont,2.6
+November2019,Vermont,2.6
+December2019,Vermont,2.6
+January2020,Vermont,2.5
+February2020,Vermont,2.6
+March2020,Vermont,2.7
+April2020,Vermont,14.3
+May2020,Vermont,9.5
+June2020,Vermont,7.6
+July2020,Vermont,6.4
+August2020,Vermont,5.1
+September2020,Vermont,4.5
+October2020,Vermont,4
+November2020,Vermont,3.8
+December2020,Vermont,3.8
+January2021,Vermont,3.9
+February2021,Vermont,3.9
+March2021,Vermont,3.8
+April2021,Vermont,3.7
+May2021,Vermont,3.6
+June2021,Vermont,3.5
+July2021,Vermont,3.3
+August2021,Vermont,3.2
+September2021,Vermont,3.2
+October2021,Vermont,3.1
+November2021,Vermont,3.1
+December2021,Vermont,3.1
+January2022,Vermont,3
+February2022,Vermont,2.9
+March2022,Vermont,2.6
+April2022,Vermont,2.5
+May2022,Vermont,2.3
+June2022,Vermont,2.2
+July2022,Vermont,2.1
+August2022,Vermont,2.1
+September2022,Vermont,2.1
+October2019,Virginia,2.7
+November2019,Virginia,2.7
+December2019,Virginia,2.7
+January2020,Virginia,2.6
+February2020,Virginia,2.7
+March2020,Virginia,2.9
+April2020,Virginia,11.6
+May2020,Virginia,9.6
+June2020,Virginia,8.5
+July2020,Virginia,7.9
+August2020,Virginia,7
+September2020,Virginia,6.3
+October2020,Virginia,5.6
+November2020,Virginia,5.2
+December2020,Virginia,5
+January2021,Virginia,4.8
+February2021,Virginia,4.6
+March2021,Virginia,4.5
+April2021,Virginia,4.3
+May2021,Virginia,4.1
+June2021,Virginia,4
+July2021,Virginia,3.8
+August2021,Virginia,3.6
+September2021,Virginia,3.4
+October2021,Virginia,3.4
+November2021,Virginia,3.3
+December2021,Virginia,3.3
+January2022,Virginia,3.3
+February2022,Virginia,3.2
+March2022,Virginia,3
+April2022,Virginia,3
+May2022,Virginia,3
+June2022,Virginia,2.8
+July2022,Virginia,2.7
+August2022,Virginia,2.6
+September2022,Virginia,2.6
+October2019,Washington,4.1
+November2019,Washington,4
+December2019,Washington,3.9
+January2020,Washington,3.9
+February2020,Washington,3.9
+March2020,Washington,5.3
+April2020,Washington,16.8
+May2020,Washington,13.2
+June2020,Washington,11.4
+July2020,Washington,10.2
+August2020,Washington,8.7
+September2020,Washington,7.9
+October2020,Washington,7.1
+November2020,Washington,6.7
+December2020,Washington,6.5
+January2021,Washington,6.3
+February2021,Washington,6.1
+March2021,Washington,5.8
+April2021,Washington,5.7
+May2021,Washington,5.5
+June2021,Washington,5.4
+July2021,Washington,5.2
+August2021,Washington,5
+September2021,Washington,4.8
+October2021,Washington,4.6
+November2021,Washington,4.5
+December2021,Washington,4.5
+January2022,Washington,4.4
+February2022,Washington,4.3
+March2022,Washington,4.1
+April2022,Washington,4.1
+May2022,Washington,3.9
+June2022,Washington,3.8
+July2022,Washington,3.7
+August2022,Washington,3.7
+September2022,Washington,3.7
+October2019,West Virginia,5
+November2019,West Virginia,5
+December2019,West Virginia,5
+January2020,West Virginia,5.1
+February2020,West Virginia,5.1
+March2020,West Virginia,5.2
+April2020,West Virginia,15.5
+May2020,West Virginia,12.2
+June2020,West Virginia,10.4
+July2020,West Virginia,9.4
+August2020,West Virginia,8.3
+September2020,West Virginia,7.6
+October2020,West Virginia,6.9
+November2020,West Virginia,6.5
+December2020,West Virginia,6.2
+January2021,West Virginia,5.9
+February2021,West Virginia,5.8
+March2021,West Virginia,5.6
+April2021,West Virginia,5.5
+May2021,West Virginia,5.4
+June2021,West Virginia,5.3
+July2021,West Virginia,5.1
+August2021,West Virginia,4.8
+September2021,West Virginia,4.6
+October2021,West Virginia,4.3
+November2021,West Virginia,4.3
+December2021,West Virginia,4.3
+January2022,West Virginia,4.1
+February2022,West Virginia,3.9
+March2022,West Virginia,3.7
+April2022,West Virginia,3.6
+May2022,West Virginia,3.5
+June2022,West Virginia,3.6
+July2022,West Virginia,3.7
+August2022,West Virginia,3.9
+September2022,West Virginia,4
+October2019,Wisconsin,3.3
+November2019,Wisconsin,3.2
+December2019,Wisconsin,3.2
+January2020,Wisconsin,3.1
+February2020,Wisconsin,3
+March2020,Wisconsin,2.9
+April2020,Wisconsin,14.1
+May2020,Wisconsin,10.4
+June2020,Wisconsin,8.6
+July2020,Wisconsin,7.6
+August2020,Wisconsin,6.2
+September2020,Wisconsin,5.7
+October2020,Wisconsin,5
+November2020,Wisconsin,4.8
+December2020,Wisconsin,4.7
+January2021,Wisconsin,4.5
+February2021,Wisconsin,4.4
+March2021,Wisconsin,4.3
+April2021,Wisconsin,4.3
+May2021,Wisconsin,4.1
+June2021,Wisconsin,4
+July2021,Wisconsin,3.8
+August2021,Wisconsin,3.6
+September2021,Wisconsin,3.4
+October2021,Wisconsin,3.2
+November2021,Wisconsin,3.1
+December2021,Wisconsin,3.1
+January2022,Wisconsin,3
+February2022,Wisconsin,2.9
+March2022,Wisconsin,2.8
+April2022,Wisconsin,2.8
+May2022,Wisconsin,2.9
+June2022,Wisconsin,2.9
+July2022,Wisconsin,3
+August2022,Wisconsin,3.1
+September2022,Wisconsin,3.2
+October2019,Wyoming,4.1
+November2019,Wyoming,4.2
+December2019,Wyoming,4.4
+January2020,Wyoming,4.7
+February2020,Wyoming,4.9
+March2020,Wyoming,5.2
+April2020,Wyoming,5.4
+May2020,Wyoming,8.6
+June2020,Wyoming,7.2
+July2020,Wyoming,6.6
+August2020,Wyoming,5.9
+September2020,Wyoming,5.6
+October2020,Wyoming,5.3
+November2020,Wyoming,5.2
+December2020,Wyoming,5.1
+January2021,Wyoming,5.1
+February2021,Wyoming,5
+March2021,Wyoming,5
+April2021,Wyoming,4.8
+May2021,Wyoming,4.7
+June2021,Wyoming,4.6
+July2021,Wyoming,4.5
+August2021,Wyoming,4.3
+September2021,Wyoming,4.2
+October2021,Wyoming,4
+November2021,Wyoming,4
+December2021,Wyoming,4
+January2022,Wyoming,3.8
+February2022,Wyoming,3.6
+March2022,Wyoming,3.4
+April2022,Wyoming,3.3
+May2022,Wyoming,3.2
+June2022,Wyoming,3.1
+July2022,Wyoming,3
+August2022,Wyoming,3.1
+September2022,Wyoming,3.3

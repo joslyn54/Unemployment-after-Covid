@@ -1,3 +1,17 @@
 # Interactive component
 
+```{r}
+library(dplyr)
+interactive <- read.csv("data/interactive.csv")
+interactive <- interactive[2: 38]
+output <- interactive %>% pivot_longer(!State, names_to = "Month", values_to = "Unemployment_Rate")
+output <- output[, c(2, 1, 3)]
 
+output <- output %>% filter("State" != "Puerto Rico")
+output
+```
+
+
+```{r}
+
+```
