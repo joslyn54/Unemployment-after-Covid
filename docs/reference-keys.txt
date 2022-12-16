@@ -42,3 +42,7 @@ visualizing-unemployed-population-age-and-sex-by-mosaic-plot
 relationships-among-unemployed-population-gdp-and-cpi-3
 interactive-component
 conclusion
+exploration
+limitations
+future-directions
+lessons-learned
